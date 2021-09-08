@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/minttu", {data:[{_img:{}}],fetch:{},mutations:void 0});

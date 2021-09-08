@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/munavoi", {data:[{_img:{}}],fetch:{},mutations:void 0});

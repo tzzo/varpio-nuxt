@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/romaine-ruukussa", {data:[{_img:{}}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/tomaatti-irto", {data:[{_img:{}}],fetch:{},mutations:void 0});

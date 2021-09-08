@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/punainen-gazpacho", {data:[{_img:{}}],fetch:{},mutations:void 0});
