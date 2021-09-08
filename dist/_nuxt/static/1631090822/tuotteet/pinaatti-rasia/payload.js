@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/pinaatti-rasia", {data:[{_img:{}}],fetch:{},mutations:void 0});

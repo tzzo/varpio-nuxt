@@ -54,5 +54,6 @@ export default {
   css: [
     '~/assets/css/global.scss'
   ],
-  pageTransition: 'page'
+  pageTransition: 'page',
+  base: '/varpio-nuxt/'
 }
