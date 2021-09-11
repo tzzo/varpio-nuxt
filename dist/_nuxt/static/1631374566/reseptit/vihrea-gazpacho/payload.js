@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/vihrea-gazpacho", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/recipes/vihrea_gazpacho.jpg":"\u002F_nuxt\u002Fimage\u002Fb5c811.webp"}}],fetch:{},mutations:void 0});

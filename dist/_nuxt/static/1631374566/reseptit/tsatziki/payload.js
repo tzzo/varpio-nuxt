@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/tsatziki", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/recipes/tsatziki.jpg":"\u002F_nuxt\u002Fimage\u002F978d2f.webp"}}],fetch:{},mutations:void 0});

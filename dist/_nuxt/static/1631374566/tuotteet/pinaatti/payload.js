@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/pinaatti", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/pinaatti.jpg":"\u002F_nuxt\u002Fimage\u002F3165c4.webp"}}],fetch:{},mutations:void 0});
