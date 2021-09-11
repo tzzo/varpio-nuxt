@@ -44,7 +44,7 @@
 			NuxtLink.button-transparent(to="/tuotteet") Katso kaikki tuotteet
 
 		section.recipes
-			nuxt-img(src="/img/recipes.jpg")
+			nuxt-img(src="/img/recipes.jpg" format="webp")
 			.container
 				h2.white Varpion Reseptit
 				NuxtLink.button-transparent-white(to="/reseptit") Katso kaikki reseptit
@@ -64,8 +64,10 @@
 					span.font-canvas Iitu
 		
 		section.garden
-			h2.white Tutustu puutarhan arkeen
-			NuxtLink.button-transparent-white(to="/tutustu") Katso lisää
+			nuxt-img(src="/img/garden.jpg" format="webp")
+			.container
+				h2.white Tutustu puutarhan arkeen
+				NuxtLink.button-transparent-white(to="/tutustu") Katso lisää
 </template>
 
 <script>
@@ -183,58 +185,34 @@ export default {
 				padding: 32px
 		@media (max-width: 500px)
 			flex-wrap: wrap
+
 	.garden
 		display: flex
 		align-items: center
 		justify-content: center
 		flex-direction: column
-		background-image: url('~assets/img/garden.jpg')
-		background-size: cover
-		background-position: center
+		//-background-image: url('~assets/img/garden.jpg')
+		//-background-size: cover
+		//-background-position: center
 		padding-top: 160px
 		padding-bottom: 160px
 		text-align: center
+		position: relative
 		h2
 			text-shadow: 1px 1px 3px black
 			font-size: 55px
 			line-height: 1
+		img
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			width: 100%
+			height: 100%
+			object-fit: cover
+		.container
+			z-index: 100
 
-
-	.sticky-nav
-		background: white
-		position: fixed
-		top: 0
-		left: 0
-		right: 0
-		animation: enterNav .3s forwards
-		a
-			color: black
-		.white
-			display: none
-		.green
-			display: block
-	
-	.sticky-nav-exit
-		animation: exitNav .5s forwards
-		position: fixed
-		top: 0
-		left: 0
-		right: 0
-		background: white
-		.white
-			display: none
-		.green
-			display: block
-	@keyframes enterNav
-		from 
-			transform: translateY(-100%)
-		to
-			transform: translateY(0)
-	@keyframes exitNav
-		from 
-			transform: translateY(0)
-		to
-			transform: translateY(-100%)
 	.products
 		padding-top: 80px
 		padding-bottom: 120px

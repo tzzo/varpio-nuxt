@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/punainen-frisee", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/punainen-frisee.jpg":"\u002F_nuxt\u002Fimage\u002F8044c4.webp"}}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/kurkku", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/kurkku.jpg":"\u002F_nuxt\u002Fimage\u002Fa9140c.webp"}}],fetch:{},mutations:void 0});
