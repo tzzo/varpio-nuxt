@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/punainen-frisee", {data:[{_img:{}}],fetch:{},mutations:void 0});

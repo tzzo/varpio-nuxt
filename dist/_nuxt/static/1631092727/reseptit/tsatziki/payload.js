@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/tsatziki", {data:[{_img:{}}],fetch:{},mutations:void 0});
