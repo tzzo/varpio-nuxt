@@ -25,7 +25,7 @@
           li Keittele 20-60 minuuttia hiljalleen kannen alla.
           li Lisää mausteet ja viimeistele tilkalla kouhukermaa.
       .right
-        img(src="~assets/img/recipes/bolognese.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/bolognese.jpg")
 </template>
 
 <script>

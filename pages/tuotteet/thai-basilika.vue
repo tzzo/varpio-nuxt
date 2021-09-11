@@ -5,7 +5,7 @@
         h1.title Thai basilika
         p
       .right
-        img(src="~assets/img/products/thai-basilika.jpg")
+        nuxt-img(preset="detail" src="/img/products/thai-basilika.jpg")
 </template>
 
 <script>

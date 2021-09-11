@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'varpio-nuxt',
+    title: 'Varpio puutarha',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -54,5 +54,37 @@ export default {
   css: [
     '~/assets/css/global.scss'
   ],
-  pageTransition: 'page'
+  pageTransition: 'page',
+  image: {
+    presets: {
+      product: {
+        modifiers: {
+          format: 'webp',
+          width: 375,
+          height: 262
+        }
+      },
+      recipe: {
+        modifiers: {
+          format: 'webp',
+          width: 375,
+          height: 261
+        }
+      },
+      person: {
+        modifiers: {
+          format: 'webp'
+        }
+      },
+      detail: {
+        modifiers: {
+          format: 'webp',
+          width: 602,
+          height: 451,
+          quality: 90
+        }
+      }
+    }
+  }
 }
+  

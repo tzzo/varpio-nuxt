@@ -5,7 +5,7 @@
         h1.title Lehtipersilja
         p 
       .right
-        img(src="~assets/img/products/lehtipersilja.jpg")
+        nuxt-img(preset="detail" src="/img/products/lehtipersilja.jpg")
 </template>
 
 <script>

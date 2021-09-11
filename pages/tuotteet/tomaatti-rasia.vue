@@ -5,7 +5,7 @@
         h1.title Tomaatti rasia
         p
       .right
-        img(src="~assets/img/products/tomaatti-rasia.jpg")
+        nuxt-img(preset="detail" src="/img/products/tomaatti-rasia.jpg")
 </template>
 
 <script>

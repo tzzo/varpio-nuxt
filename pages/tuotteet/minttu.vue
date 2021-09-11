@@ -5,7 +5,7 @@
         h1.title Minttu
         p
       .right
-        img(src="~assets/img/products/minttu.jpg")
+        nuxt-img(preset="detail" src="/img/products/minttu.jpg")
 </template>
 
 <script>

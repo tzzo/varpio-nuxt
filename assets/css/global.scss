@@ -37,7 +37,6 @@ h1, h2 {
   padding-top: 40px;
   padding-bottom: 40px;
   flex-direction: column-reverse;
-  align-items: center;
   .title {
     font-size: 45px;
     line-height: 1.2;
@@ -84,6 +83,9 @@ h1, h2 {
   .product .left {
     padding-bottom: 80px;
     padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

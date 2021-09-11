@@ -5,7 +5,7 @@
         h1.title Viinisuolaheinä
         p 
       .right
-        img(src="~assets/img/products/viinisuolaheina.jpg")
+        nuxt-img(preset="detail" src="/img/products/viinisuolaheina.jpg")
 </template>
 
 <script>

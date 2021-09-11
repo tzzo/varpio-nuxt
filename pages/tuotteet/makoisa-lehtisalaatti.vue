@@ -5,7 +5,7 @@
         h1.title Mehevä lehtisalaatti
         p 
       .right
-        img(src="~assets/img/products/meheva-lehtisalaatti.jpg")
+        nuxt-img(preset="detail" src="/img/products/meheva-lehtisalaatti.jpg")
 </template>
 
 <script>

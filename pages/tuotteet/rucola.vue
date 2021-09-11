@@ -5,7 +5,7 @@
         h1.title Rucola
         p
       .right
-        img(src="~assets/img/products/rucola.jpg")
+        nuxt-img(preset="detail" src="/img/products/rucola.jpg")
 </template>
 
 <script>

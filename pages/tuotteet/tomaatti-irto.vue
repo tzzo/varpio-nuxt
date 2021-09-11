@@ -5,7 +5,7 @@
         h1.title Irto tomaatti
         p Erittäin suosittu tomaattimme on tavallista maukkaampi. Lajikevalinnat on tehty maku edellä ja tomaatit kerätään aina kypsänä. Tomaatti sisältää paljon lykopeenia, jonka on todettu ehkäisevän monia sairauksia. Säilytä huoneenlämmössä.
       .right
-        img(src="~assets/img/products/tomaatti-irto.jpg")
+        nuxt-img(preset="detail" src="/img/products/tomaatti-irto.jpg")
 </template>
 
 <script>

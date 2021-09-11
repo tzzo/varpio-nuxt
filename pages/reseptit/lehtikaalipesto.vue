@@ -20,7 +20,7 @@
           li Pyöräytä ainekset karkeaksi pestoksi yleiskoneessa, sauvasekoittimella, tai morttelissa. Lisää öljy vähitellen oman maun mukaan.
           li Tarkista maku ja lisää halutessasi mustapippuria.
       .right
-        img(src="~assets/img/recipes/lehtikaalipesto.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/lehtikaalipesto.jpg")
 </template>
 
 <script>

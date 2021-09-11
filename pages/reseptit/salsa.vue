@@ -20,7 +20,7 @@
 					li Hienonna kaikki ainekset pieneksi silpuksi ja sekoita.
 					li Anna maustua noin puol tuntia.
 			.right
-				img(src="~assets/img/recipes/salsa.jpg")
+				nuxt-img(preset="detail" src="/img/recipes/salsa.jpg")
 </template>
 
 <script>

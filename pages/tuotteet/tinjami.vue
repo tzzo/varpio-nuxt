@@ -5,7 +5,7 @@
         h1.title Timjami
         p
       .right
-        img(src="~assets/img/products/timjami.jpg")
+        nuxt-img(preset="detail" src="/img/products/timjami.jpg")
 </template>
 
 <script>

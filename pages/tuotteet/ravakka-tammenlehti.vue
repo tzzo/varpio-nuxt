@@ -5,7 +5,7 @@
         h1.title Räväkkä tammenlehti
         p
       .right
-        img(src="~assets/img/products/ravakka-tammenlehti.jpg")
+        nuxt-img(preset="detail" src="/img/products/ravakka-tammenlehti.jpg")
 </template>
 
 <script>

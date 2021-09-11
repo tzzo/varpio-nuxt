@@ -5,7 +5,7 @@
         h1.title Romaine ruukussa
         p
       .right
-        img(src="~assets/img/products/romaine-ruukussa.jpg")
+        nuxt-img(preset="detail" src="/img/products/romaine-ruukussa.jpg")
 </template>
 
 <script>

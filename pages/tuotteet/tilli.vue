@@ -5,7 +5,7 @@
         h1.title Tilli
         p
       .right
-        img(src="~assets/img/products/tilli.jpg")
+        nuxt-img(preset="detail" src="/img/products/tilli.jpg")
 </template>
 
 <script>

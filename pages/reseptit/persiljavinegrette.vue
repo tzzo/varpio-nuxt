@@ -17,7 +17,7 @@
           li Kaavi pois valmistusastiasta nuolijaa apuna käyttäen ja tarjoile.
         span * Säilyy hyvänä jääkaapissa viisi vuorokautta.
       .right
-        img(src="~assets/img/recipes/persiljavinegrette.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/persiljavinegrette.jpg")
 </template>
 
 <script>

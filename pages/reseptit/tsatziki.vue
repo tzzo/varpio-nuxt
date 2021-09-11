@@ -19,7 +19,7 @@
           li Sekoita raasteen joukkoon jogurtti, valkosipuli ja mausteet.
           li Tarjoa esimerkiksi levitteenä tai grilliruokien lisäkkeenä.
       .right
-        img(src="~assets/img/recipes/tsatziki.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/tsatziki.jpg")
 </template>
 
 <script>

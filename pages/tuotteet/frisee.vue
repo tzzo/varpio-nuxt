@@ -5,7 +5,7 @@
         h1.title Frisee
         p Makeahko ja mieto salaattilajike, joka soveltuu ilmavuutensa ansiosta hyvin esimerkiksi salaattipohjiin tai leivän päälle. Kauniin ulkonäkönsä vuoksi sopii hyvin myös voileipäkakkujen koristeluun. Säilytä omassa pussissaan jääkaapissa.
       .right
-        img(src="~assets/img/products/frisee.jpg")
+        nuxt-img(preset="detail" src="/img/products/frisee.jpg")
 </template>
 
 <script>

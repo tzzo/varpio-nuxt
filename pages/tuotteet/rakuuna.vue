@@ -5,7 +5,7 @@
         h1.title Rakuuna
         p
       .right
-        img(src="~assets/img/products/rakuuna.jpg")
+        nuxt-img(preset="detail" src="/img/products/rakuuna.jpg")
 </template>
 
 <script>

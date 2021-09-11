@@ -24,7 +24,7 @@
 					li Lisää joukkoon oliivit, punasipuli, retiisit ja viipaloitu broilerin filee.
 					li Mausta itsetehdyllä Varpion pestolla, tzatzikilla tai oliiviöljyllä.
 			.right
-				img(src="~assets/img/recipes/kanasalaatti.jpg")
+				nuxt-img(preset="detail" src="/img/recipes/kanasalaatti.jpg")
 </template>
 
 <script>

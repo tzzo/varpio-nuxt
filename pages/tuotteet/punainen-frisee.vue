@@ -5,7 +5,7 @@
         h1.title Punainen frisee
         p
       .right
-        img(src="~assets/img/products/punainen-frisee.jpg")
+        nuxt-img(preset="detail" src="/img/products/punainen-frisee.jpg")
 </template>
 
 <script>

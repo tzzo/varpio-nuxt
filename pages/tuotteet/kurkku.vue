@@ -5,7 +5,7 @@
         h1.title Kurkku
         p Varpion perinteikäs kurkku pakataan käsin käteviin pusseihin, jotka on helppo sulkea uudelleen. Kurkku on erittäin vesipitoinen vihannes: siinä on vain 3% kuiva-ainetta ja 97% vettä! Kurkku edistää suolen toimintaa, hiusten kasvua sekä ehkäisee kynsien haurastumista. Säilytä viileäkaapissa tai huoneenlämmössä.
       .right
-        img(src="~assets/img/products/kurkku.jpg")
+        nuxt-img(preset="detail" src="/img/products/kurkku.jpg")
 </template>
 
 <script>

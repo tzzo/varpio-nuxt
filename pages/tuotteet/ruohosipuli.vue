@@ -5,7 +5,7 @@
         h1.title Ruohosipuli
         p
       .right
-        img(src="~assets/img/products/ruohosipuli.jpg")
+        nuxt-img(preset="detail" src="/img/products/ruohosipuli.jpg")
 </template>
 
 <script>

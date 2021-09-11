@@ -25,7 +25,7 @@
           li Soseuta sauvasekoittimella ja mausta suolalla oman maun mukaan.
           li Tarjoile keittoannos tuorejuustonokareen, oliiviöljyn ja tuoreiden basilikanlehtien kanssa.
       .right
-        img(src="~assets/img/recipes/tomaattikeitto.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/tomaattikeitto.jpg")
 </template>
 
 <script>

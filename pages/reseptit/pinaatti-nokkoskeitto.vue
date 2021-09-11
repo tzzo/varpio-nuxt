@@ -27,7 +27,7 @@
           li Lisää tarvittaessa loraus maitoa, jos keitto on liian paksua.
           li Tarjoile kananmunan kanssa.
       .right
-        img(src="~assets/img/recipes/pinaatti_nokkoskeitto.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/pinaatti_nokkoskeitto.jpg")
 </template>
 
 <script>

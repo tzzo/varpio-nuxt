@@ -5,7 +5,7 @@
         h1.title Vesikrassi
         p 
       .right
-        img(src="~assets/img/products/vesikrassi.jpg")
+        nuxt-img(preset="detail" src="/img/products/vesikrassi.jpg")
 </template>
 
 <script>

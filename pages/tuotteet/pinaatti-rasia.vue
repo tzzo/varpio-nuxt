@@ -5,7 +5,7 @@
         h1.title Pinaatti rasia
         p
       .right
-        img(src="~assets/img/products/pinaatti-rasia.jpg")
+        nuxt-img(preset="detail" src="/img/products/pinaatti-rasia.jpg")
 </template>
 
 <script>

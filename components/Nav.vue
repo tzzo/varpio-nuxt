@@ -8,7 +8,7 @@
 			span
 			span
 		ul#menu(hidden)
-			li(v-if="$nuxt.$route.path !== '/'")
+			li
 				NuxtLink(to="/") Etusivu
 			li
 				NuxtLink(to="/tuotteet") Tuotteet
@@ -100,12 +100,13 @@ export default {
 				font-family: "Canvas Text Serif"
 				font-size: 32px
 				line-height: 2
+				color: black
 				
 	nav
 		display: flex
 		justify-content: space-between
 		align-items: center
-		z-index: 1
+		z-index: 100
 		ul
 			display: flex
 			list-style: none

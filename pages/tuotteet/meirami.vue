@@ -5,7 +5,7 @@
         h1.title Meirami
         p 
       .right
-        img(src="~assets/img/products/meirami.jpg")
+        nuxt-img(preset="detail" src="/img/products/meirami.jpg")
 </template>
 
 <script>

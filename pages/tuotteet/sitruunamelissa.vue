@@ -5,7 +5,7 @@
         h1.title Sitruunamelissa
         p
       .right
-        img(src="~assets/img/products/sitruunamelissa.jpg")
+        nuxt-img(preset="detail" src="/img/products/sitruunamelissa.jpg")
 </template>
 
 <script>

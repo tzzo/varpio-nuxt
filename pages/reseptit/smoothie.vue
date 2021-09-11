@@ -19,7 +19,7 @@
           li Laita kaikki ainekset korkeaan astiaan tai blenderin kulhoon. Aja smoothie sileäksi blenderissä tai sauvasekoittimella ja tarjoile.
 
       .right
-        img(src="~assets/img/recipes/smoothie.jpg")
+        nuxt-img(preset="detail" src="/img/recipes/smoothie.jpg")
 </template>
 
 <script>

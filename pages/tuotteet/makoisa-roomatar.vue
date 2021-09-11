@@ -5,7 +5,7 @@
         h1.title Makoisa roomatar
         p
       .right
-        img(src="~assets/img/products/makoisa-roomatar.jpg")
+        nuxt-img(preset="detail" src="/img/products/makoisa-roomatar.jpg")
 </template>
 
 <script>

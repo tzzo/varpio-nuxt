@@ -5,7 +5,7 @@
         h1.title Oregano
         p
       .right
-        img(src="~assets/img/products/oregano.jpg")
+        nuxt-img(preset="detail" src="/img/products/oregano.jpg")
 </template>
 
 <script>

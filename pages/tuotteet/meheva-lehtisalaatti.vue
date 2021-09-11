@@ -2,10 +2,10 @@
   .container
     article.product
       .left
-        h1.title Salaattimix
+        h1.title Mehevä lehtisalaatti
         p
       .right
-        nuxt-img(preset="detail" src="/img/products/salaattimix.jpg")
+        nuxt-img(preset="detail" src="img/products/meheva-lehtisalaatti.jpg")
 </template>
 
 <script>
