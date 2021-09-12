@@ -15,12 +15,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', rel: 'stylesheet', crossorigin: 'true' },
-      { rel: 'preload', href: '~/assets/Pacifico-Bold.woff2', as: "font", type: 'font/woff2', crossorigin: 'true' }
+      { rel: 'preload', href: '/canvastextserif-webfont.woff2', as: "font", type: 'font/woff2', crossorigin: 'true' }
     ]
   },
 
@@ -60,7 +58,7 @@ export default {
     presets: {
       product: {
         modifiers: {
-          format: 'webp',
+          //-format: 'webp',
           width: "375",
           height: "262",
           loading: "lazy"
@@ -68,7 +66,7 @@ export default {
       },
       recipe: {
         modifiers: {
-          format: 'webp',
+          //-format: 'webp',
           width: "375",
           height: "261",
           loading: "lazy"
@@ -76,13 +74,13 @@ export default {
       },
       person: {
         modifiers: {
-          format: 'webp',
+          //-format: 'webp',
           loading: "lazy"
         }
       },
       detail: {
         modifiers: {
-          format: 'webp',
+          //-format: 'webp',
           width: "602",
           height: "451",
           quality: "90"

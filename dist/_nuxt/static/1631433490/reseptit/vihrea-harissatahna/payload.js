@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/vihrea-harissatahna", {data:[{_img:{"/_ipx/q_90,s_602x451/img/recipes/harissa.jpg":"\u002F_nuxt\u002Fimage\u002F2c4154.jpg"}}],fetch:{},mutations:void 0});

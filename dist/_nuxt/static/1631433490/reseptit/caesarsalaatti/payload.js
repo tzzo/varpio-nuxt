@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/caesarsalaatti", {data:[{_img:{"/_ipx/q_90,s_602x451/img/recipes/ceasarsalaatti.jpg":"\u002F_nuxt\u002Fimage\u002Fb702af.jpg"}}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/mojova-lehtisalaatti", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/mojova-lehtisalaatti.jpg":"\u002F_nuxt\u002Fimage\u002Faadd29.webp"}}],fetch:{},mutations:void 0});

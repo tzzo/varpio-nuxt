@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/bolognese", {data:[{_img:{"/_ipx/q_90,s_602x451/img/recipes/bolognese.jpg":"\u002F_nuxt\u002Fimage\u002F3bb52d.jpg"}}],fetch:{},mutations:void 0});

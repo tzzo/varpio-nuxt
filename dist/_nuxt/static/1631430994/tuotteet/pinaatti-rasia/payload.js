@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/pinaatti-rasia", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/pinaatti-rasia.jpg":"\u002F_nuxt\u002Fimage\u002Fa2403e.webp"}}],fetch:{},mutations:void 0});

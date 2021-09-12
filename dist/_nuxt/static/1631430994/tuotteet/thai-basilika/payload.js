@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/thai-basilika", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/thai-basilika.jpg":"\u002F_nuxt\u002Fimage\u002Fd4ebfc.webp"}}],fetch:{},mutations:void 0});

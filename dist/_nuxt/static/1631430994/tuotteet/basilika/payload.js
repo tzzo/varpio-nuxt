@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/basilika", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/products/basilika.jpg":"\u002F_nuxt\u002Fimage\u002F94b0c9.webp"}}],fetch:{},mutations:void 0});
