@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/smoothie", {data:[{_img:{"/_ipx/s_602x451/img/recipes/smoothie.jpg":"\u002F_nuxt\u002Fimage\u002Fcb800e.jpg"}}],fetch:{},mutations:void 0});

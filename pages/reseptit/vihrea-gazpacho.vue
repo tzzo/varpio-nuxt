@@ -23,7 +23,7 @@
           li Soseuta kaikki ainekset tehosekoittimella, yleiskoneella tai sauvasekoittimella.
           li Jäähdytä kylmäksi ja nauti.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/vihrea_gazpacho.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/vihrea_gazpacho.jpg")
 </template>
 
 <script>

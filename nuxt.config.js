@@ -14,11 +14,11 @@ export default {
       { hid: 'description', name: 'description', content: 'Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', rel: 'stylesheet', crossorigin: 'true' },
-      { rel: 'preload', href: '/canvastextserif-webfont.woff2', as: "font", type: 'font/woff2', crossorigin: 'true' }
+      { rel: 'preload', href: '/canvastextserif-webfont.woff2', as: "font", type: 'font/woff2', crossorigin: 'true' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
     ]
   },
 

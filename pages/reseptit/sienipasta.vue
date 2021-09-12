@@ -24,7 +24,7 @@
           li Valuta al dente -kypsyinen pasta lävikköön ja laita pasta sienikastikkeen kanssa samaan pannuun.
           li Kuumenna ja sekoita hetki, maista ja lisää halutessasi suolaa tai pippuria, tarjoile kuumana. Voit poistaa timjaminoksat ennen tarjoilua.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/pasta.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/pasta.jpg")
 </template>
 
 <script>

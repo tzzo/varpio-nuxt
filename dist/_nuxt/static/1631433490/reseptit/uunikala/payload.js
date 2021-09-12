@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/uunikala", {data:[{_img:{"/_ipx/q_90,s_602x451/img/recipes/uunikala.jpg":"\u002F_nuxt\u002Fimage\u002F09c7b3.jpg"}}],fetch:{},mutations:void 0});

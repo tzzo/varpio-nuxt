@@ -116,7 +116,7 @@ export default {
 			display: flex
 			align-items: center
 			//-padding-top: 114px
-			z-index: 1000
+			z-index: 100
 			h1 
 				font-size: 50px
 				color: white

@@ -49,11 +49,13 @@ export default {
 			}
 		});
 		menu.addEventListener("click", function () {
+			const open = JSON.parse(toggleMenu.getAttribute("aria-expanded"));
 			toggleMenu.setAttribute("aria-expanded", !open);
 			menu.hidden = !menu.hidden;
 			body.classList.remove("noscroll");
 		});
 		logo.addEventListener("click", function () {
+			const open = JSON.parse(toggleMenu.getAttribute("aria-expanded"));
 			toggleMenu.setAttribute("aria-expanded", !open);
 			menu.hidden = !menu.hidden;
 			body.classList.remove("noscroll");
@@ -106,10 +108,11 @@ export default {
 		display: flex
 		justify-content: space-between
 		align-items: center
-		z-index: 1000
+		z-index: 2000
 		ul
 			display: flex
 			list-style: none
+			z-index: 100
 			li
 				padding-right: 32px
 				a
@@ -173,6 +176,9 @@ export default {
 	transition: transform 300ms, opacity 300ms
 	will-change: transform
 
+nav.nav-index:not(.sticky-nav) .nav-toggle span
+	background-color: white
+
 .nav-toggle[aria-expanded="false"] span:nth-child(1)
 	width: 100%
 
@@ -188,17 +194,20 @@ export default {
 	width: 100%
 	transform: rotate(45deg)
 	transform-origin: 11px 6px
+	background-color: black !important
 
 .nav-toggle[aria-expanded="true"] span:nth-child(2)
 	opacity: 0
 	background: transparent
 	margin: 4px 0
 	transform: translateX(-100%)
+	background-color: black !important
 
 .nav-toggle[aria-expanded="true"] span:nth-child(3)
 	width: 100%
 	transform: rotate(-45deg)
 	transform-origin: 14px -2px
+	background-color: black !important
 
 nav:not(.nav-index)
 	.nuxt-link-exact-active

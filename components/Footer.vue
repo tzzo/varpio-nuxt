@@ -26,13 +26,13 @@
 				.footer-row
 					span.title.font-canvas Seuraa somessa:
 					.social-wrap
-						a(href="https://www.facebook.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Facebook" rel="external")
+						a(href="https://www.facebook.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Facebook" rel="noopener")
 							svg(data-name='Group 3' xmlns='http://www.w3.org/2000/svg' width='35.328' height='35.327')
 								g(data-name='Group 2')
 									g(data-name='Group 1')
 										path(data-name='Path 1' d='M22.339 17.584h-3.058l.012 10.908-4.534.012-.012-10.908h-2.156v-3.851h2.156v-2.5a4.251 4.251 0 014.564-4.578l3.357.009v3.741h-2.437a.92.92 0 00-.959 1.048v2.269h3.457zM17.645.004a17.663 17.663 0 1017.683 17.641A17.665 17.665 0 0017.645.004z' fill='#545454')
 						
-						a(href="https://www.instagram.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Instagram" rel="external")
+						a(href="https://www.instagram.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Instagram" rel="noopener")
 							svg(data-name='Group 13' xmlns='http://www.w3.org/2000/svg' width='34.972' height='34.972')
 								g(data-name='Group 6')
 									g(data-name='Group 5')

@@ -30,7 +30,7 @@
           li Ota uunipelti pois uunista, poista kalan nahka (vain päällimmäiseltä puolelta) sekä mausteet kalan sisältä.
           li Asettele paistetut pinaatit perunoiden ja tomaattien päälle ja purista hiukan sitruunan mehua kalan ja kasvisten päälle. Tarjoile kuumana.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/uunikala.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/uunikala.jpg")
 </template>
 
 <script>

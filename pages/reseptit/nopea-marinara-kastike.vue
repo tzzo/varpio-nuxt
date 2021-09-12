@@ -21,7 +21,7 @@
         span * Säilyy hyvänä jääkaapissa neljä vuorokautta.
           
       .right
-        nuxt-img(preset="detail" src="/img/recipes/marinara.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/marinara.jpg")
 </template>
 
 <script>

@@ -22,7 +22,7 @@
           li Nostele voikeltuaisvaahdon joukkoon valkuainen, persilja ja suola.
           li Tarjoile.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/munavoi.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/munavoi.jpg")
 </template>
 
 <script>

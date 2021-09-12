@@ -26,7 +26,7 @@
           li Aja sileäksi keitoksi ja tarjoile kylmänä. Voit keittoa valmistaessa lisätä joukkoon muutaman jääpalan, mikäli tarjoilet keiton välittömästi.
         span * Säilyy hyvänä jääkaapissa kaksi vuorokautta.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/gazpacho.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/gazpacho.jpg")
 </template>
 
 <script>

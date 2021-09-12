@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/lehtikaali", {data:[{_img:{"/_ipx/s_602x451/img/products/lehtikaali.jpg":"\u002F_nuxt\u002Fimage\u002Fb8549d.jpg"}}],fetch:{},mutations:void 0});

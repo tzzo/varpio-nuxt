@@ -27,7 +27,7 @@
           li Aja ainekset tahnaksi ja tarkasta vielä maku. Lisää halutessasi lisää sitruunanmehua ja suolaa.
           li Tarjoile. Harissatahna sopii hyvin yhteen monen kanssa, esim. grillattujen kasvisten, uunipaahdetun bataatin, kanan ja vaikkapa kuhan kanssa.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/harissa.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/harissa.jpg")
 </template>
 
 <script>

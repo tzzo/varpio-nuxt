@@ -5,7 +5,7 @@
         h1.title Oregano
         p
       .right
-        nuxt-img(preset="detail" src="/img/products/oregano.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/products/oregano.jpg")
 </template>
 
 <script>

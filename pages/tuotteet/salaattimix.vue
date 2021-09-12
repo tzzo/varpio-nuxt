@@ -5,7 +5,7 @@
         h1.title Salaattimix
         p
       .right
-        nuxt-img(preset="detail" src="/img/products/salaattimix.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/products/salaattimix.jpg")
 </template>
 
 <script>

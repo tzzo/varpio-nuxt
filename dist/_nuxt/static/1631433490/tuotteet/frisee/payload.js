@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/frisee", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/frisee.jpg":"\u002F_nuxt\u002Fimage\u002F21d497.jpg"}}],fetch:{},mutations:void 0});

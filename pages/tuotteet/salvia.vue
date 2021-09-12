@@ -5,7 +5,7 @@
         h1.title Salvia
         p
       .right
-        nuxt-img(preset="detail" src="/img/products/salvia.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/products/salvia.jpg")
 </template>
 
 <script>

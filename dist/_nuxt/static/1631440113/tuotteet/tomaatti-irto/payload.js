@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/tomaatti-irto", {data:[{_img:{"/_ipx/s_602x451/img/products/tomaatti-irto.jpg":"\u002F_nuxt\u002Fimage\u002Fff718e.jpg"}}],fetch:{},mutations:void 0});

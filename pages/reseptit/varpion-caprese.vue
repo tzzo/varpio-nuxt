@@ -19,7 +19,7 @@
           li Lisää basilikanlehtiä ja pestoa tomaatin ja mozzarellan lomaan.
           li Ripaus suolaa ja pari rouhaisua mustapippuria päälle.
       .right
-        nuxt-img(preset="detail" src="/img/recipes/caprese.jpg")
+        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/caprese.jpg")
 </template>
 
 <script>

@@ -1,6 +1,7 @@
 <template lang="pug">
   .index
     header.sub-page-header
+      nuxt-img(src="/img/recipes_header.jpg")
       h1 Reseptit
     section.recipes.container
       .sub-page-intro
@@ -73,10 +74,21 @@ export default {
 
 <style lang="sass" scoped>
   header
-    background-image: url('~assets/img/recipes_header.jpg')
-    background-size: cover
-    background-position: top
+    //background-image: url('~assets/img/recipes_header.jpg')
+    //background-size: cover
+    //background-position: top
+    position: relative
     height: 40vmin
+    img
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      width: 100%
+      height: 100%
+      max-height: 40vmin
+      object-fit: cover
     h1
       text-shadow: 1px 1px 3px black
+      z-index: 10
 </style>
