@@ -1,8 +1,8 @@
 <template lang="pug">
 	nav.navigation(:class="{'sticky-nav': scrollPosition > 400 && !menuToggle, 'sticky-nav-exit': scrollPosition > 150 && scrollPosition < 420 && !menuToggle && !scrollingDown, 'nav-index': $nuxt.$route.path === '/'}")
 		NuxtLink.logo-wrap(to="/")
-			img.white(src="~/assets/img/logo_white.svg" v-if="$nuxt.$route.path === '/'")
-			img.green.logo(src="~/assets/img/logo_green.svg")
+			img.white(src="~/assets/img/logo_white.svg" v-if="$nuxt.$route.path === '/'" alt="Varpio puutarha valkoinen logo" aria-label="Etusivu")
+			img.green.logo(src="~/assets/img/logo_green.svg" alt="Varpio puutarha vihreä logo" aria-label="Etusivu")
 		button.nav-toggle.open-toggle(aria-expanded="false" aria-controls="menu")
 			span
 			span

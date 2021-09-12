@@ -1,7 +1,7 @@
 <template lang="pug">
 	.index
 		section.header
-			nuxt-img(format='webp' fit="cover" width="1600" src="/img/header.jpg" alt="Varpio puutarha logo")
+			nuxt-img(format='webp' fit="cover" width="1600" src="/img/header.jpg" alt="Varpio puutarha logo" loading="eager")
 			Nav(:page="'index'")
 			.container
 				h1 Varpio puutarha
@@ -15,7 +15,7 @@
 				p Kaikki Varpio Puutarhan antimet on kasvatettu huolellisesti puhtauteen panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme tuotteet tarkasti käsityönä. Asiakas voi aina luottaa saavansa tavallista parempia, lähellä tuotettuja kotimaisia kasviksia.
 
 		section.divider
-			nuxt-img(loading="lazy" format='webp' src="/img/divider.jpg" alt="Varpio puutarhan kasvihuone")
+			nuxt-img(loading="lazy" format='webp' width="1600" src="/img/divider.jpg" alt="Varpio puutarhan kasvihuone")
 		
 		section.products.container.text-center
 			h2.title-25 Tuotteet
