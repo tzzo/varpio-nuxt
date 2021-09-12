@@ -19,7 +19,8 @@ export default {
       { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', rel: 'stylesheet' } 
+      { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', rel: 'stylesheet', crossorigin: 'true' },
+      { rel: 'preload', href: '~/assets/Pacifico-Bold.woff2', as: "font", type: 'font/woff2', crossorigin: 'true' }
     ]
   },
 
@@ -62,7 +63,7 @@ export default {
           format: 'webp',
           width: "375",
           height: "262",
-          lazy: true
+          loading: "lazy"
         }
       },
       recipe: {
@@ -70,13 +71,13 @@ export default {
           format: 'webp',
           width: "375",
           height: "261",
-          lazy: true
+          loading: "lazy"
         }
       },
       person: {
         modifiers: {
           format: 'webp',
-          lazy: true
+          loading: "lazy"
         }
       },
       detail: {
