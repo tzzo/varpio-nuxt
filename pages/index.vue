@@ -1,7 +1,7 @@
 <template lang="pug">
 	.index
 		section.header
-			nuxt-img(format='webp' fit="cover" width="1600" src="/img/header.jpg")
+			nuxt-img(format='webp' fit="cover" width="1600" src="/img/header.jpg" alt="Varpio puutarha logo")
 			Nav(:page="'index'")
 			.container
 				h1 Varpio puutarha
@@ -15,7 +15,7 @@
 				p Kaikki Varpio Puutarhan antimet on kasvatettu huolellisesti puhtauteen panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme tuotteet tarkasti käsityönä. Asiakas voi aina luottaa saavansa tavallista parempia, lähellä tuotettuja kotimaisia kasviksia.
 
 		section.divider
-			nuxt-img(loading="lazy" format='webp' src="/img/divider.jpg")
+			nuxt-img(loading="lazy" format='webp' src="/img/divider.jpg" alt="Varpio puutarhan kasvihuone")
 		
 		section.products.container.text-center
 			h2.title-25 Tuotteet
@@ -23,28 +23,28 @@
 			p Lajikevalinnoissa panostamme aina määrän sijasta makuun. Pyrimme jatkuvasti löytämään parempia lajikkeita ja myös kokonaan uusia tuotteita viljeltäväksi. Orimattilan puutarhan myymälästä voit löytää tuotteita, joita ei vielä kaupoista saa!
 			.list-preview-wrap
 				NuxtLink.list-preview(to="tuotteet/basilika")
-					nuxt-img(preset="product" src="/img/products/basilika.jpg")
+					nuxt-img(preset="product" src="/img/products/basilika.jpg" alt="Varpio puutarha basilika yrttiruukku")
 					span Basilika
 				NuxtLink.list-preview(to="tuotteet/tilli")
-					nuxt-img(preset="product" src="/img/products/tilli.jpg")
+					nuxt-img(preset="product" src="/img/products/tilli.jpg" alt="Varpio puutarha tilli yrttiruukku")
 					span Tilli
 				NuxtLink.list-preview(to="tuotteet/persilja")
-					nuxt-img(preset="product" src="/img/products/persilja.jpg")
+					nuxt-img(preset="product" src="/img/products/persilja.jpg" alt="Varpio puutarha persilja yrttiruukku")
 					span Persilja
 				NuxtLink.list-preview(to="tuotteet/tomaatti-irto")
-					nuxt-img(preset="product" src="/img/products/tomaatti-irto.jpg")
+					nuxt-img(preset="product" src="/img/products/tomaatti-irto.jpg" alt="Varpio puutarha irto tomaatti")
 					span Tomaatti
 				NuxtLink.list-preview(to="tuotteet/kurkku")
-					nuxt-img(preset="product" src="/img/products/kurkku.jpg")
+					nuxt-img(preset="product" src="/img/products/kurkku.jpg" alt="Varpio puutarha kurkku")
 					span Kurkku
 				NuxtLink.list-preview(to="tuotteet/minttu")
-					nuxt-img(preset="product" src="/img/products/minttu.jpg")
+					nuxt-img(preset="product" src="/img/products/minttu.jpg" alt="Varpio puutarha minttu yrttiruukku")
 					span Minttu
 				
 			NuxtLink.button-transparent(to="/tuotteet") Katso kaikki tuotteet
 
 		section.recipes
-			nuxt-img(src="/img/recipes.jpg" format="webp")
+			nuxt-img(src="/img/recipes.jpg" format="webp" alt="Marinara kastike")
 			.container
 				h2.white Varpion Reseptit
 				NuxtLink.button-transparent-white(to="/reseptit") Katso kaikki reseptit
@@ -54,17 +54,17 @@
 			p Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua. Varpio Puutarha laajeni vuonna 1987, kun Orimattilaan rakennettiin uudet kasvihuoneet. Sittemmin vastuu yrityksestä on siirtynyt nuoremmalle sukupolvelle ja molemmat puutarhat jatkavat edelleen toimintaansa.
 			.person-wrap
 				.person
-					nuxt-img(loading="lazy" preset="person" src="/img/hannu.jpg")
+					nuxt-img(loading="lazy" preset="person" src="/img/hannu.jpg" alt="Varpio puutarha Hannu")
 					span.font-canvas Hannu
 				.person
-					nuxt-img(loading="lazy" preset="person" src="/img/tuukka.jpg")
+					nuxt-img(loading="lazy" preset="person" src="/img/tuukka.jpg" alt="Varpio puutarha Tuukka")
 					span.font-canvas Tuukka
 				.person
-					nuxt-img(loading="lazy" preset="person" src="/img/iitu.jpg")
+					nuxt-img(loading="lazy" preset="person" src="/img/iitu.jpg" alt="Varpio puutarha Iitu")
 					span.font-canvas Iitu
 		
 		section.garden
-			nuxt-img(src="/img/garden.jpg" format="webp")
+			nuxt-img(src="/img/garden.jpg" format="webp" alt="Varpio puutarha kasvihuone ja työntekijä")
 			.container
 				h2.white Tutustu puutarhan arkeen
 				NuxtLink.button-transparent-white(to="/tutustu") Katso lisää

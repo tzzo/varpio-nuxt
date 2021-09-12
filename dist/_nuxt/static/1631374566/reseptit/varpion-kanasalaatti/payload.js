@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/varpion-kanasalaatti", {data:[{_img:{"/_ipx/f_webp,q_90,s_602x451/img/recipes/kanasalaatti.jpg":"\u002F_nuxt\u002Fimage\u002Fb5bf70.webp"}}],fetch:{},mutations:void 0});

@@ -60,28 +60,31 @@ export default {
       product: {
         modifiers: {
           format: 'webp',
-          width: 375,
-          height: 262
+          width: "375",
+          height: "262",
+          lazy: true
         }
       },
       recipe: {
         modifiers: {
           format: 'webp',
-          width: 375,
-          height: 261
+          width: "375",
+          height: "261",
+          lazy: true
         }
       },
       person: {
         modifiers: {
-          format: 'webp'
+          format: 'webp',
+          lazy: true
         }
       },
       detail: {
         modifiers: {
           format: 'webp',
-          width: 602,
-          height: 451,
-          quality: 90
+          width: "602",
+          height: "451",
+          quality: "90"
         }
       }
     }

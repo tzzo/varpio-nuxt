@@ -3,7 +3,7 @@
 		.footer-left
 			.footer-content
 				.footer-row
-					h4.title.big Yhteystiedot
+					h3.title.big Yhteystiedot
 				.footer-row
 					span.title.font-canvas Varpio Puutarha
 					.wrap
@@ -26,13 +26,13 @@
 				.footer-row
 					span.title.font-canvas Seuraa somessa:
 					.social-wrap
-						a(href="https://www.facebook.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Facebook")
+						a(href="https://www.facebook.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Facebook" rel="external")
 							svg(data-name='Group 3' xmlns='http://www.w3.org/2000/svg' width='35.328' height='35.327')
 								g(data-name='Group 2')
 									g(data-name='Group 1')
 										path(data-name='Path 1' d='M22.339 17.584h-3.058l.012 10.908-4.534.012-.012-10.908h-2.156v-3.851h2.156v-2.5a4.251 4.251 0 014.564-4.578l3.357.009v3.741h-2.437a.92.92 0 00-.959 1.048v2.269h3.457zM17.645.004a17.663 17.663 0 1017.683 17.641A17.665 17.665 0 0017.645.004z' fill='#545454')
 						
-						a(href="https://www.instagram.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Instagram")
+						a(href="https://www.instagram.com/varpiopuutarha/" target="_blank" title="Varpio Puutarha Instagram" rel="external")
 							svg(data-name='Group 13' xmlns='http://www.w3.org/2000/svg' width='34.972' height='34.972')
 								g(data-name='Group 6')
 									g(data-name='Group 5')
@@ -48,7 +48,7 @@
 											path(data-name='Path 3' d='M26.792 21.621a5.637 5.637 0 01-1.57 4.049 5.535 5.535 0 01-3.983 1.487l-7.748-.011a5.534 5.534 0 01-3.978-1.5 5.352 5.352 0 01-1.558-4.054l.011-7.819a5.26 5.26 0 015.553-5.536l7.819.011a5.243 5.243 0 015.465 5.554l-.011 7.819zM17.51.002a17.486 17.486 0 1017.462 17.507A17.474 17.474 0 0017.51.002z' fill='#545454')
 
 		.footer-right
-			iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1945.7469375379019!2d25.755445452077744!3d60.81191758211462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4691dc0720a967bb%3A0x68b4674717ac9e8b!2sVarpio+Puutarha!5e0!3m2!1sfi!2sfi!4v1489871307128&z=5&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen)
+			iframe(title="Varpio puutarha kartalla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1945.7469375379019!2d25.755445452077744!3d60.81191758211462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4691dc0720a967bb%3A0x68b4674717ac9e8b!2sVarpio+Puutarha!5e0!3m2!1sfi!2sfi!4v1489871307128&z=5&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen)
 </template>
 
 <script>
