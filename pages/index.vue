@@ -123,6 +123,7 @@ export default {
 				line-height: 1
 				text-align: center
 				text-shadow: 1px 1px 3px black
+				margin: 0
 				@media (min-width: 500px)
 					font-size: 77px
 	.intro
