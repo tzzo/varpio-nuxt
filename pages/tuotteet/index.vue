@@ -164,9 +164,30 @@
 </template>
 
 <script>
+import { setMetaTitle, setMetaDescription } from '~/plugins/metaTags'
 export default {
   name: 'index',
-  layout: 'default-nav-footer'
+  layout: 'default-nav-footer',
+  computed: {
+    pageTitle() {
+      return 'Tuotteet – Varpio Puutarha'
+    },
+    metaTitle() {
+      return setMetaTitle(this.pageTitle)
+    },
+    //-metaDesc() {
+    //-  return setMetaDescription('')
+    //-}
+  },
+  head() {
+    return {
+      title: this.pageTitle,
+      meta: [
+        ...this.metaTitle,
+        //-...this.metaDesc
+      ]
+    }
+  },
 }
 </script>
 
