@@ -5,7 +5,7 @@
         h1.title Viinisuolaheinä
         p 
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/products/viinisuolaheina.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/products/viinisuolaheina.jpg")
 </template>
 
 <script>

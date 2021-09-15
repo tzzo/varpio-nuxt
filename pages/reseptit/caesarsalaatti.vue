@@ -5,7 +5,7 @@
         h1.title Caesarsalaatti
         span 4 annosta
         span.recipe-title Ainekset:       
-        ul 
+        ul.ingridients 
           li 1 pussi Varpion friseesalaattia
           li 1 pussi Varpion jääsalaattia
           li 1 ruukku rucolaa
@@ -31,7 +31,7 @@
           li Revi salaattikulhoon salaatit ja lisää myös rucola. Sekoita joukkoon runsaasti valmistamaasi kastiketta ja sekoita. Leikkaa juustosta kuorimaveitsellä ohuita lastuja.
           li Annostele salaatti lautasille ja asettele päälle krutongit, saksanpähkinät sekä juustolastut. Tarjoile. Halutessasi voit tehdä salaatista vielä ruokaisamman lisäämällä siihen esimerkiksi kikherneitä, paistettua kanaa tai savustettua lohta.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/ceasarsalaatti.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/ceasarsalaatti.jpg")
 </template>
 
 <script>

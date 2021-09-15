@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/tumma-frisee", {data:[{_img:{"/_ipx/s_602x451/img/products/tumma-frisee.jpg":"\u002F_nuxt\u002Fimage\u002Fbd68d9.jpg"}}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/vesikrassi", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/vesikrassi.jpg":"\u002F_nuxt\u002Fimage\u002F0f31d9.jpg"}}],fetch:{},mutations:void 0});

@@ -5,7 +5,7 @@
         h1.title Persiljavinegrette
         span 12 annosta
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 2 dl ekstra-neitsytoliiviöljy
           li 1 ruukku Varpion persiljaa
           li 1 rkl vaaleaa balsamicoa
@@ -17,7 +17,7 @@
           li Kaavi pois valmistusastiasta nuolijaa apuna käyttäen ja tarjoile.
         span * Säilyy hyvänä jääkaapissa viisi vuorokautta.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/persiljavinegrette.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/persiljavinegrette.jpg")
 </template>
 
 <script>

@@ -5,7 +5,7 @@
 			.left
 				h1.title Salsa
 				span.recipe-title Ainekset:
-				ul 
+				ul.ingridients 
 					li 4 Varpion tomaattia
 					li 1 punainen chili
 					li 1 pieni punasipuli
@@ -20,7 +20,7 @@
 					li Hienonna kaikki ainekset pieneksi silpuksi ja sekoita.
 					li Anna maustua noin puol tuntia.
 			.right
-				nuxt-img(product="detail" width="602" height="451" src="/img/recipes/salsa.jpg")
+				nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/salsa.jpg")
 </template>
 
 <script>

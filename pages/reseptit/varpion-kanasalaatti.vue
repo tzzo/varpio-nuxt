@@ -5,7 +5,7 @@
 			.left
 				h1.title Varpion kanasalaatti
 				span.recipe-title Ainekset:
-				ul 
+				ul.ingridients 
 					li Varpion maustesalaatti mixiä
 					li Varpion jääsalaattia
 					li Varpion kurkku
@@ -24,7 +24,7 @@
 					li Lisää joukkoon oliivit, punasipuli, retiisit ja viipaloitu broilerin filee.
 					li Mausta itsetehdyllä Varpion pestolla, tzatzikilla tai oliiviöljyllä.
 			.right
-				nuxt-img(product="detail" width="602" height="451" src="/img/recipes/kanasalaatti.jpg")
+				nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/kanasalaatti.jpg")
 </template>
 
 <script>

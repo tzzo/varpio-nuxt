@@ -5,7 +5,7 @@
         h1.title Punainen basilika
         p
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/products/punainen-basilika.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/products/punainen-basilika.jpg")
 </template>
 
 <script>

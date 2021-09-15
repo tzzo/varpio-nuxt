@@ -4,7 +4,7 @@
       .left
         h1.title Varpion Caprese
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients
           li 6 Varpion tomaattia
           li 250 g mozzarellajuustoa
           li 1/2 ruukkua Varpion Basilikaa
@@ -19,7 +19,7 @@
           li Lisää basilikanlehtiä ja pestoa tomaatin ja mozzarellan lomaan.
           li Ripaus suolaa ja pari rouhaisua mustapippuria päälle.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/caprese.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/caprese.jpg")
 </template>
 
 <script>

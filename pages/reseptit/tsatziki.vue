@@ -5,7 +5,7 @@
       .left
         h1.title Tsatziki
         span.recipe-title Ainekset:
-        ul
+        ul.ingridients
           li 2 kpl Varpion kurkkua
           li 200 g turkkilaista jogurttia
           li 1 valkosipulin kynsi
@@ -19,7 +19,7 @@
           li Sekoita raasteen joukkoon jogurtti, valkosipuli ja mausteet.
           li Tarjoa esimerkiksi levitteenä tai grilliruokien lisäkkeenä.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/tsatziki.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/tsatziki.jpg")
 </template>
 
 <script>

@@ -6,7 +6,7 @@
         h1.title Vihreä harissatahna
         span 6 annosta
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 2 Varpion tomaattia
           li 2 jalopenoa
           li 4 valkosipulin kynttä
@@ -27,7 +27,7 @@
           li Aja ainekset tahnaksi ja tarkasta vielä maku. Lisää halutessasi lisää sitruunanmehua ja suolaa.
           li Tarjoile. Harissatahna sopii hyvin yhteen monen kanssa, esim. grillattujen kasvisten, uunipaahdetun bataatin, kanan ja vaikkapa kuhan kanssa.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/harissa.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/harissa.jpg")
 </template>
 
 <script>

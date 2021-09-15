@@ -5,7 +5,7 @@
       .left
         h1.title Lehtikaalipesto
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 1 ruukku Varpion lehtikaalia
           li 0,5 dl neitsytoliiviöljyä
           li 1 dl cashewpähkinöitä
@@ -20,7 +20,7 @@
           li Pyöräytä ainekset karkeaksi pestoksi yleiskoneessa, sauvasekoittimella, tai morttelissa. Lisää öljy vähitellen oman maun mukaan.
           li Tarkista maku ja lisää halutessasi mustapippuria.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/lehtikaalipesto.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/lehtikaalipesto.jpg")
 </template>
 
 <script>

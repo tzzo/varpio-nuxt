@@ -25,7 +25,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/metaTags.js',
-    '~/plugins/gallery.js'
+    { src: '~/plugins/gallery.js', ssr: false } 
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -60,29 +60,23 @@ export default {
     presets: {
       product: {
         modifiers: {
-          //-format: 'webp',
-          width: "375",
-          height: "262",
-          loading: "lazy"
+          width: 450,
+          height: 393
         }
       },
       recipe: {
         modifiers: {
-          //-format: 'webp',
-          width: "375",
-          height: "261",
           loading: "lazy"
         }
       },
       person: {
         modifiers: {
-          //-format: 'webp',
-          loading: "lazy"
+          width: "280",
+          height: "280"
         }
       },
       detail: {
         modifiers: {
-          //-format: 'webp',
           width: "602",
           height: "451",
           quality: "90"

@@ -5,7 +5,7 @@
         h1.title Munavoi
         span 4 annosta
         span.recipe-title Ainekset:    
-        ul 
+        ul.ingridients
           li 4 kananmunaa
           li 100 g voita
           li 1/2 ruukkua Varpion persiljaa
@@ -22,7 +22,7 @@
           li Nostele voikeltuaisvaahdon joukkoon valkuainen, persilja ja suola.
           li Tarjoile.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/munavoi.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/munavoi.jpg")
 </template>
 
 <script>

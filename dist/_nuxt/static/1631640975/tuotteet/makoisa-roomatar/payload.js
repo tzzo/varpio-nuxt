@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/makoisa-roomatar", {data:[{_img:{"/_ipx/s_602x451/img/products/makoisa-roomatar.jpg":"\u002F_nuxt\u002Fimage\u002F4f7902.jpg"}}],fetch:{},mutations:void 0});

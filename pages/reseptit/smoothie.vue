@@ -5,7 +5,7 @@
         h1.title Smoothie mintusta, pinaatista ja mansikoista
         span 2 annosta
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 150 g pakastemansikkaa
           li 1 nektariini tai persikka
           li 1 passionhedelmä
@@ -19,7 +19,7 @@
           li Laita kaikki ainekset korkeaan astiaan tai blenderin kulhoon. Aja smoothie sileäksi blenderissä tai sauvasekoittimella ja tarjoile.
 
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/smoothie.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/smoothie.jpg")
 </template>
 
 <script>

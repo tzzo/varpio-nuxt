@@ -4,7 +4,7 @@
       .left
         h1.title Vihreä Gazpacho
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 1 Varpion kurkkua
           li 2 Varpion tomaattia
           li 1 vihreä paprika
@@ -23,7 +23,7 @@
           li Soseuta kaikki ainekset tehosekoittimella, yleiskoneella tai sauvasekoittimella.
           li Jäähdytä kylmäksi ja nauti.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/vihrea_gazpacho.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/vihrea_gazpacho.jpg")
 </template>
 
 <script>

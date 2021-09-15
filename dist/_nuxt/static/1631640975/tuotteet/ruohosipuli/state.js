@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1631640975",layout:"default-nav-footer",error:a,serverRendered:true,routePath:"\u002Ftuotteet\u002Fruohosipuli",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}},_img:{"/_ipx/s_602x451/img/products/ruohosipuli.jpg":"\u002F_nuxt\u002Fimage\u002F2224c2.jpg"}}}(null));

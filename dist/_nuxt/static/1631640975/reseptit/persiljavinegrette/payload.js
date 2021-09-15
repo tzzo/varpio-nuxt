@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/persiljavinegrette", {data:[{_img:{"/_ipx/s_602x451/img/recipes/persiljavinegrette.jpg":"\u002F_nuxt\u002Fimage\u002Fd15fd7.jpg"}}],fetch:{},mutations:void 0});

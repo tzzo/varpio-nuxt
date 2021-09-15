@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/tomaatti-rasia", {data:[{_img:{"/_ipx/s_602x451/img/products/tomaatti-rasia.jpg":"\u002F_nuxt\u002Fimage\u002F1beae2.jpg"}}],fetch:{},mutations:void 0});

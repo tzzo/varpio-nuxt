@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/rakuuna", {data:[{_img:{"/_ipx/s_602x451/img/products/rakuuna.jpg":"\u002F_nuxt\u002Fimage\u002F272b32.jpg"}}],fetch:{},mutations:void 0});

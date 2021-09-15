@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/rucola", {data:[{_img:{"/_ipx/s_602x451/img/products/rucola.jpg":"\u002F_nuxt\u002Fimage\u002Fb239c0.jpg"}}],fetch:{},mutations:void 0});

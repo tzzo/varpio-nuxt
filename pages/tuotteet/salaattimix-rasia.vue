@@ -5,7 +5,7 @@
         h1.title Salaattimix rasia
         p
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/products/salaattimix-rasia.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/products/salaattimix-rasia.jpg")
 </template>
 
 <script>

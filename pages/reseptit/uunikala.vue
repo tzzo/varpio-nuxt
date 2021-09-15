@@ -5,7 +5,7 @@
         h1.title Uunikala
         span 6 annosta
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 1 kokonainen noin 1,5 kiloinen punalihainen kala, esim. lohi, kirjolohi, nieriä tai taimen
           li 1 rkl karkeaa merisuolaa
           li 6 isoa perunaa
@@ -30,7 +30,7 @@
           li Ota uunipelti pois uunista, poista kalan nahka (vain päällimmäiseltä puolelta) sekä mausteet kalan sisältä.
           li Asettele paistetut pinaatit perunoiden ja tomaattien päälle ja purista hiukan sitruunan mehua kalan ja kasvisten päälle. Tarjoile kuumana.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/uunikala.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/uunikala.jpg")
 </template>
 
 <script>

@@ -23,22 +23,22 @@
 			p Lajikevalinnoissa panostamme aina määrän sijasta makuun. Pyrimme jatkuvasti löytämään parempia lajikkeita ja myös kokonaan uusia tuotteita viljeltäväksi. Orimattilan puutarhan myymälästä voit löytää tuotteita, joita ei vielä kaupoista saa!
 			.list-preview-wrap
 				NuxtLink.list-preview(to="tuotteet/basilika")
-					nuxt-img(preset="product" width="375" height="262" loading="lazy" src="/img/products/basilika.jpg" alt="Varpio puutarha basilika yrttiruukku")
+					nuxt-img(preset="product" loading="lazy" src="/img/products/basilika.jpg" alt="Varpio puutarha basilika yrttiruukku")
 					span Basilika
 				NuxtLink.list-preview(to="tuotteet/tilli")
-					nuxt-img(preset="product" width="375" height="262" loading="lazy" src="/img/products/tilli.jpg" alt="Varpio puutarha tilli yrttiruukku")
+					nuxt-img(preset="product" loading="lazy" src="/img/products/tilli.jpg" alt="Varpio puutarha tilli yrttiruukku")
 					span Tilli
 				NuxtLink.list-preview(to="tuotteet/persilja")
-					nuxt-img(preset="product" width="375" height="262" loading="lazy" src="/img/products/persilja.jpg" alt="Varpio puutarha persilja yrttiruukku")
+					nuxt-img(preset="product" loading="lazy" src="/img/products/persilja.jpg" alt="Varpio puutarha persilja yrttiruukku")
 					span Persilja
 				NuxtLink.list-preview(to="tuotteet/tomaatti-irto")
-					nuxt-img(preset="product" width="375" height="262" loading="lazy" src="/img/products/tomaatti-irto.jpg" alt="Varpio puutarha irto tomaatti")
+					nuxt-img(preset="product" loading="lazy" src="/img/products/tomaatti-irto.jpg" alt="Varpio puutarha irto tomaatti")
 					span Tomaatti
 				NuxtLink.list-preview(to="tuotteet/kurkku")
-					nuxt-img(preset="product" width="375" height="262" loading="lazy" src="/img/products/kurkku.jpg" alt="Varpio puutarha kurkku")
+					nuxt-img(preset="product" loading="lazy" src="/img/products/kurkku.jpg" alt="Varpio puutarha kurkku")
 					span Kurkku
 				NuxtLink.list-preview(to="tuotteet/minttu")
-					nuxt-img(preset="product" width="375" height="262" loading="lazy" src="/img/products/minttu.jpg" alt="Varpio puutarha minttu yrttiruukku")
+					nuxt-img(preset="product" loading="lazy" src="/img/products/minttu.jpg" alt="Varpio puutarha minttu yrttiruukku")
 					span Minttu
 				
 			NuxtLink.button-transparent(to="/tuotteet") Katso kaikki tuotteet
@@ -54,13 +54,13 @@
 			p Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua. Varpio Puutarha laajeni vuonna 1987, kun Orimattilaan rakennettiin uudet kasvihuoneet. Sittemmin vastuu yrityksestä on siirtynyt nuoremmalle sukupolvelle ja molemmat puutarhat jatkavat edelleen toimintaansa.
 			.person-wrap
 				.person
-					nuxt-img(preset="person" width="280" height="280" src="/img/hannu.jpg" alt="Varpio puutarha Hannu")
+					nuxt-img(preset="person" loading="lazy" src="/img/hannu.jpg" alt="Varpio puutarha Hannu")
 					span.font-canvas Hannu
 				.person
-					nuxt-img(preset="person" width="280" height="280" src="/img/tuukka.jpg" alt="Varpio puutarha Tuukka")
+					nuxt-img(preset="person" loading="lazy" src="/img/tuukka.jpg" alt="Varpio puutarha Tuukka")
 					span.font-canvas Tuukka
 				.person
-					nuxt-img(preset="person" width="280" height="280" src="/img/iitu.jpg" alt="Varpio puutarha Iitu")
+					nuxt-img(preset="person" loading="lazy" src="/img/iitu.jpg" alt="Varpio puutarha Iitu")
 					span.font-canvas Iitu
 		
 		section.garden
@@ -98,9 +98,6 @@ export default {
 					color: white
 					text-decoration: none
 	.header
-		//-background-image: url('~assets/img/header.jpg')
-		//-background-size: cover
-		//-background-position: center
 		min-height: 70vh
 		display: flex
 		img 
@@ -115,7 +112,6 @@ export default {
 		.container
 			display: flex
 			align-items: center
-			//-padding-top: 114px
 			z-index: 100
 			h1 
 				font-size: 50px
@@ -148,10 +144,6 @@ export default {
 		flex-direction: column
 		padding: 160px 16px 
 		position: relative
-		//-background-image: url('~assets/img/recipes.jpg')
-		//-background-size: cover
-		//-background-position: center
-		//-text-align: center
 		.container
 			z-index: 10
 		img
@@ -192,9 +184,6 @@ export default {
 		align-items: center
 		justify-content: center
 		flex-direction: column
-		//-background-image: url('~assets/img/garden.jpg')
-		//-background-size: cover
-		//-background-position: center
 		padding-top: 160px
 		padding-bottom: 160px
 		text-align: center

@@ -5,7 +5,7 @@
         h1.title Punainen Gazpacho
         span 4 annosta
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 8 Varpion tomaattia
           li 1 Varpion kurkku
           li 1 punainen paprika
@@ -26,7 +26,7 @@
           li Aja sileäksi keitoksi ja tarjoile kylmänä. Voit keittoa valmistaessa lisätä joukkoon muutaman jääpalan, mikäli tarjoilet keiton välittömästi.
         span * Säilyy hyvänä jääkaapissa kaksi vuorokautta.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/gazpacho.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/gazpacho.jpg")
 </template>
 
 <script>

@@ -73,6 +73,7 @@ export default {
 		.footer-left, .footer-right
 			flex: 1
 			min-width: 320px
+			min-height: 320px
 		.footer-right
 			iframe
 				width: 100%

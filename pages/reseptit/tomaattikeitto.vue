@@ -5,7 +5,7 @@
       .left
         h1.title Tomaattikeitto
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 800g Varpion tomaattia
           li 2 punasipulia
           li 2 kynttä valkosipulia
@@ -25,7 +25,7 @@
           li Soseuta sauvasekoittimella ja mausta suolalla oman maun mukaan.
           li Tarjoile keittoannos tuorejuustonokareen, oliiviöljyn ja tuoreiden basilikanlehtien kanssa.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/tomaattikeitto.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/tomaattikeitto.jpg")
 </template>
 
 <script>

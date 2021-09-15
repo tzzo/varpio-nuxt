@@ -5,7 +5,7 @@
       .left
         h1.title Pinaatti-nokkoskeitto
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 100 g voita
           li 1 dl vehnäjauhoja
           li 1 litra maitoa
@@ -27,7 +27,7 @@
           li Lisää tarvittaessa loraus maitoa, jos keitto on liian paksua.
           li Tarjoile kananmunan kanssa.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/pinaatti_nokkoskeitto.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/pinaatti_nokkoskeitto.jpg")
 </template>
 
 <script>

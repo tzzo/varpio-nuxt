@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/korianteri", {data:[{_img:{"/_ipx/s_602x451/img/products/korianteri.jpg":"\u002F_nuxt\u002Fimage\u002F9842fc.jpg"}}],fetch:{},mutations:void 0});

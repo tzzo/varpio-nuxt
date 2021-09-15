@@ -5,7 +5,7 @@
       .left
         h1.title Bolognese
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients
           li 1 iso keltasipuli
           li 3 valkosipulin kynttä
           li 3 porkkanaa
@@ -25,7 +25,7 @@
           li Keittele 20-60 minuuttia hiljalleen kannen alla.
           li Lisää mausteet ja viimeistele tilkalla kouhukermaa.
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/bolognese.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/bolognese.jpg")
 </template>
 
 <script>

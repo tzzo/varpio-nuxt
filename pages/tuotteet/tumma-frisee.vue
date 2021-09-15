@@ -5,7 +5,7 @@
         h1.title Kepeä tumma frisee
         p 
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/products/tumma-frisee.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/products/tumma-frisee.jpg")
 </template>
 
 <script>

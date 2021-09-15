@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/sitruunamelissa", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/sitruunamelissa.jpg":"\u002F_nuxt\u002Fimage\u002F9774dd.jpg"}}],fetch:{},mutations:void 0});

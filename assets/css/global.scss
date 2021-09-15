@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Canvas Text Serif";
   font-display: swap;
-  src: url("/canvastextserif-webfont.woff") format("woff2"),
-  url("/canvastextserif-webfont.woff") format("woff2");
+  src: url("/canvastextserif-webfont.woff2") format("woff2"),
+  url("/canvastextserif-webfont.woff2") format("woff2");
 }
 
 body {
@@ -34,8 +34,7 @@ h1, h2 {
 
 .product {
   display: flex;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   flex-direction: column-reverse;
   .title {
     font-size: 45px;
@@ -56,6 +55,10 @@ h1, h2 {
     li {
       padding-bottom: 16px;
     }
+  }
+  @media (min-width: 500px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -105,6 +108,8 @@ h1, h2 {
   img {
     display: inline-block;
     width: 100%;
+    max-width: 300px;
+    height: auto;
   }
   span {
     text-align: center;
@@ -261,4 +266,10 @@ a[href^="mailto"], a[href^="tel"] {
 .layout-enter, 
 .layout-leave-active {
   opacity: 0
+}
+
+.ingridients {
+  li {
+    padding: 2px 0;
+  }
 }

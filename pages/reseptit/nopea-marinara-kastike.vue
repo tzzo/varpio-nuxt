@@ -5,7 +5,7 @@
         h1.title Nopea Marinara kastike
         span 4 annosta
         span.recipe-title Ainekset:
-        ul 
+        ul.ingridients 
           li 6 Varpion tomaattia
           li 1 rkl tomaattipyrettä
           li 4 isoa valkosipulin kynttä
@@ -21,7 +21,7 @@
         span * Säilyy hyvänä jääkaapissa neljä vuorokautta.
           
       .right
-        nuxt-img(product="detail" width="602" height="451" src="/img/recipes/marinara.jpg")
+        nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/marinara.jpg")
 </template>
 
 <script>

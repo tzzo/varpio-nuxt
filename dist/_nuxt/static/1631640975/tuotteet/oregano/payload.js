@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/oregano", {data:[{_img:{"/_ipx/s_602x451/img/products/oregano.jpg":"\u002F_nuxt\u002Fimage\u002F08c82d.jpg"}}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/varpion-caprese", {data:[{_img:{"/_ipx/s_602x451/img/recipes/caprese.jpg":"\u002F_nuxt\u002Fimage\u002F95d8df.jpg"}}],fetch:{},mutations:void 0});

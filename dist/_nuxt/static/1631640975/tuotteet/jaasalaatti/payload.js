@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/jaasalaatti", {data:[{_img:{"/_ipx/s_602x451/img/products/jaasalaatti.jpg":"\u002F_nuxt\u002Fimage\u002F4937bd.jpg"}}],fetch:{},mutations:void 0});

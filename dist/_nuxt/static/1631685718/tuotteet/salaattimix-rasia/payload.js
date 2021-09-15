@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/salaattimix-rasia", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/salaattimix-rasia.jpg":"\u002F_nuxt\u002Fimage\u002Fc10276.jpg"}}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/meheva-lehtisalaatti", {data:[{_img:{"/_ipx/s_602x451/img/products/meheva-lehtisalaatti.jpg":"\u002F_nuxt\u002Fimage\u002F0d805b.jpg"}}],fetch:{},mutations:void 0});

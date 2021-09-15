@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/ravakka-tammenlehti", {data:[{_img:{"/_ipx/s_602x451/img/products/ravakka-tammenlehti.jpg":"\u002F_nuxt\u002Fimage\u002Fe09afd.jpg"}}],fetch:{},mutations:void 0});
