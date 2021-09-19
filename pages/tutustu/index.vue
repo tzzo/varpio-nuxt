@@ -26,114 +26,114 @@ export default {
 			elokuu: [
 					{
 							src: '/img/tutustu/elokuu-1.jpg',
-							description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
-							alt: 'Blue starry night photo.',
+							//-description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
+							//-alt: 'Blue starry night photo.',
 							thumbnailWidth: '300px'
 					},
 					{
 							src: '/img/tutustu/elokuu-2.jpg',
-							description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
-							alt: 'Landscape photo of mountain with fog.',
+							//-description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
+							//-alt: 'Landscape photo of mountain with fog.',
 							thumbnailWidth: '300px'
 					},
 					{
 							src: '/img/tutustu/elokuu-3.jpg',
-							description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
-							alt: 'Low angle photo of pine trees.',
+							//-description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
+							//-alt: 'Low angle photo of pine trees.',
 							thumbnailWidth: '300px'
 					},
 					{
 							src: '/img/tutustu/elokuu-4.jpg',
-							description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
-							alt: 'Blue starry night photo.',
+							//-description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
+							//-alt: 'Blue starry night photo.',
 							thumbnailWidth: '300px'
 					},
 					{
 							src: '/img/tutustu/elokuu-5.jpg',
-							description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
-							alt: 'Landscape photo of mountain with fog.',
+							//-description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
+							//-alt: 'Landscape photo of mountain with fog.',
 							thumbnailWidth: '300px'
 					},
 					{
 							src: '/img/tutustu/elokuu-6.jpg',
-							description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
-							alt: 'Low angle photo of pine trees.',
+							//-description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
+							//-alt: 'Low angle photo of pine trees.',
 							thumbnailWidth: '300px'
 					},
 			],
 			puutarha: [
 				{
 						src: '/img/tutustu/puutarha-1.jpg',
-						description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
-						alt: 'Blue starry night photo.',
+						//-description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
+						//-alt: 'Blue starry night photo.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/puutarha-2.jpg',
-						description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
-						alt: 'Landscape photo of mountain with fog.',
+						//-description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
+						//-alt: 'Landscape photo of mountain with fog.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/puutarha-3.jpg',
-						description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
-						alt: 'Low angle photo of pine trees.',
+						//-description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
+						//-alt: 'Low angle photo of pine trees.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/puutarha-4.jpg',
-						description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
-						alt: 'Blue starry night photo.',
+						//-description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
+						//-alt: 'Blue starry night photo.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/puutarha-5.jpg',
-						description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
-						alt: 'Landscape photo of mountain with fog.',
+						//-description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
+						//-alt: 'Landscape photo of mountain with fog.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/puutarha-6.jpg',
-						description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
-						alt: 'Low angle photo of pine trees.',
+						//-description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
+						//-alt: 'Low angle photo of pine trees.',
 						thumbnailWidth: '300px'
 				},
 			],
 			virkkala: [
 				{
 						src: '/img/tutustu/virkkala-1.jpg',
-						description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
-						alt: 'Blue starry night photo.',
+						//-description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
+						//-alt: 'Blue starry night photo.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/virkkala-2.jpg',
-						description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
-						alt: 'Landscape photo of mountain with fog.',
+						//-description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
+						//-alt: 'Landscape photo of mountain with fog.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/virkkala-3.jpg',
-						description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
-						alt: 'Low angle photo of pine trees.',
+						//-description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
+						//-alt: 'Low angle photo of pine trees.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/virkkala-4.jpg',
-						description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
-						alt: 'Blue starry night photo.',
+						//-description: 'Star Night Sky Ravine by Mark Basarab, from Unsplash.',
+						//-alt: 'Blue starry night photo.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/virkkala-5.jpg',
-						description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
-						alt: 'Landscape photo of mountain with fog.',
+						//-description: 'Corno Nero, Italy by Luca Zanon, from Unsplash.',
+						//-alt: 'Landscape photo of mountain with fog.',
 						thumbnailWidth: '300px'
 				},
 				{
 						src: '/img/tutustu/virkkala-6.jpg',
-						description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
-						alt: 'Low angle photo of pine trees.',
+						//-description: 'Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.',
+						//-alt: 'Low angle photo of pine trees.',
 						thumbnailWidth: '300px'
 				},
 			]

@@ -18,7 +18,8 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', rel: 'stylesheet', crossorigin: 'true' },
       { rel: 'preload', href: '/canvastextserif-webfont.woff2', as: "font", type: 'font/woff2', crossorigin: 'true' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
+      { rel: 'preload', as: 'image', media: "(max-width: 700px)", href: "/img/header-700.jpg" }
     ]
   },
 

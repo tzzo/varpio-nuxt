@@ -1,7 +1,12 @@
 <template lang="pug">
 	.index
 		section.header
-			nuxt-img(fit="cover" width="1600" src="/img/header.jpg" alt="Varpio puutarha logo" loading="eager")
+			img(src="/img/header-og.jpg" 
+				alt="Varpio puutarha kasvihuone" 
+				sizes="(max-width: 500px) 100vw, (max-width: 900px) 50vw, 800px" 
+				srcset="/img/header-700.jpg 700w, /img/header-1200.jpg 1200w, /img/header-og.jpg 1400w")
+
+			//-nuxt-img(fit="cover" width="1600" src="/img/header.jpg" alt="Varpio puutarha logo" loading="eager")
 			Nav(:page="'index'")
 			.container
 				h1 Varpio puutarha
