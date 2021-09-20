@@ -35,7 +35,7 @@ export default {
 		window.addEventListener('scroll', this.updateScroll);
 		const toggleMenu = document.querySelector(".navigation button");
 		const menu = document.querySelector(".navigation ul");
-		const logo = document.querySelector(".navigation .logo-wrap");
+		//-const nav = document.querySelector(".navigation");
 		const body = document.body;
 
 		toggleMenu.addEventListener("click", function () {
@@ -43,18 +43,13 @@ export default {
 			toggleMenu.setAttribute("aria-expanded", !open);
 			menu.hidden = !menu.hidden;
 			body.classList.toggle("noscroll");
+
 	
 			if (!menu.hidden) {
 				menu.querySelector('a').focus();
 			}
 		});
 		menu.addEventListener("click", function () {
-			const open = JSON.parse(toggleMenu.getAttribute("aria-expanded"));
-			toggleMenu.setAttribute("aria-expanded", !open);
-			menu.hidden = !menu.hidden;
-			body.classList.remove("noscroll");
-		});
-		logo.addEventListener("click", function () {
 			const open = JSON.parse(toggleMenu.getAttribute("aria-expanded"));
 			toggleMenu.setAttribute("aria-expanded", !open);
 			menu.hidden = !menu.hidden;
@@ -147,6 +142,7 @@ export default {
 	.logo
 		padding: 8px
 		width: 64px
+		margin: 0 0 0 4px
 
 	@keyframes enterNav
 		from 
@@ -160,12 +156,12 @@ export default {
 			transform: translateY(-100%)
 
 .nav-toggle 
-	width: 50px
-	height: 50px
+	width: 30px
+	height: 30px
 	position: relative
 	background: transparent
 	padding: 4px
-	margin: 0 8px
+	margin: 0 16px 0 0
 	border: none
 	z-index: 1000
 
@@ -184,7 +180,7 @@ nav.nav-index:not(.sticky-nav) .nav-toggle span
 
 .nav-toggle[aria-expanded="false"] span:nth-child(2)
 	width: 100%
-	margin: 10px 0
+	margin: 4px 0
 
 .nav-toggle[aria-expanded="false"] span:nth-child(3)
 	width: 100%
@@ -193,7 +189,7 @@ nav.nav-index:not(.sticky-nav) .nav-toggle span
 .nav-toggle[aria-expanded="true"] span:nth-child(1)
 	width: 100%
 	transform: rotate(45deg)
-	transform-origin: 11px 6px
+	transform-origin: 3px 5px
 	background-color: black !important
 
 .nav-toggle[aria-expanded="true"] span:nth-child(2)
@@ -206,7 +202,7 @@ nav.nav-index:not(.sticky-nav) .nav-toggle span
 .nav-toggle[aria-expanded="true"] span:nth-child(3)
 	width: 100%
 	transform: rotate(-45deg)
-	transform-origin: 14px -2px
+	transform-origin: 2px -2px
 	background-color: black !important
 
 nav:not(.nav-index)
@@ -227,4 +223,11 @@ nav:not(.nav-index)
 		color: #545454
 		&:hover
 			color: black
+
+body.noscroll
+	.white
+		display: none
+	.green
+		display: block
+
 </style>

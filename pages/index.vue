@@ -122,7 +122,7 @@ export default {
 				color: white
 				line-height: 1
 				text-align: center
-				text-shadow: 1px 1px 3px black
+				text-shadow: 1px 1px 3px #3c3c3c
 				margin: 0
 				@media (min-width: 500px)
 					font-size: 77px
@@ -161,7 +161,7 @@ export default {
 		h2
 			font-size: 55px
 			line-height: 1
-			text-shadow: 1px 1px 3px black
+			text-shadow: 1px 1px 3px #3c3c3c
 	.person-wrap
 		display: flex
 		justify-content: center
@@ -193,7 +193,7 @@ export default {
 		text-align: center
 		position: relative
 		h2
-			text-shadow: 1px 1px 3px black
+			text-shadow: 1px 1px 3px #3c3c3c
 			font-size: 55px
 			line-height: 1
 		img

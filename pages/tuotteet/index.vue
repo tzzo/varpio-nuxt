@@ -205,6 +205,6 @@ export default {
       max-height: 40vh
       object-fit: cover
     h1
-      text-shadow: 1px 1px 3px black
+      text-shadow: 1px 1px 3px #3c3c3c
       z-index: 10
 </style>
