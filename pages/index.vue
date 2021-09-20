@@ -1,7 +1,7 @@
 <template lang="pug">
 	.index
 		section.header
-			img(src="/img/header-og.jpg" 
+			img.fade-in(src="/img/header-og.jpg" 
 				alt="Varpio puutarha kasvihuone" 
 				srcset="/img/header-700.jpg 700w, /img/header-1200.jpg 1200w, /img/header-og.jpg 1400w")
 
@@ -139,8 +139,11 @@ export default {
 		@media (min-width: 500px)
 			min-width: 400px	
 	.divider
-		img 
-			width: 100% 
+		img
+			width: 100%
+			min-height: 260px
+			max-height: 500px
+			object-fit: cover
 	.recipes
 		display: flex
 		align-items: center
