@@ -143,16 +143,19 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+	.recipes
+		padding-top: 40px
+		padding-bottom: 40px
 	header
 		position: relative
-		height: 40vh
+		height: 52vh
 		img
 			position: absolute
 			top: 0
 			left: 0
 			right: 0
 			width: 100%
-			height: 40vh
+			height: 52vh
 			object-fit: cover
 
 	#silentbox-gallery

@@ -96,7 +96,7 @@ export default {
 <style lang="sass" scoped>
   header
     position: relative
-    height: 40vh
+    height: 52vh
     img
       position: absolute
       top: 0
@@ -104,7 +104,7 @@ export default {
       right: 0
       width: 100%
       height: 100%
-      max-height: 40vh
+      max-height: 52vh
       object-fit: cover
     h1
       text-shadow: 1px 1px 3px #3c3c3c

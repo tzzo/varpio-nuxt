@@ -102,11 +102,11 @@ export default {
 					color: white
 					text-decoration: none
 	.header
-		min-height: 70vh
+		min-height: 100vh
 		display: flex
 		img 
 			height: 100%
-			max-height: 70vh
+			max-height: 100vh
 			position: absolute
 			top: 0
 			left: 0
@@ -128,16 +128,17 @@ export default {
 					font-size: 77px
 	.intro
 		display: flex
-		max-width: 1000px
 		margin: auto
 		text-align: center
 		flex-wrap: wrap
 		padding: 80px 0 64px
 	.intro-block
-		padding: 16px
+		padding: 32px
 		flex: 1
 		@media (min-width: 500px)
 			min-width: 400px	
+			max-width: 530px
+			margin: auto
 	.divider
 		img
 			width: 100%
@@ -177,6 +178,8 @@ export default {
 			img
 				display: inline-block
 				width: 100%
+				max-width: 280px
+				object-fit: contain
 			span
 				padding: 32px 0
 				font-size: 20px

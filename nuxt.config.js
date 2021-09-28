@@ -72,15 +72,16 @@ export default {
       },
       person: {
         modifiers: {
-          width: "280",
-          height: "280"
+          width: 480,
+          height: 480,
+          quality: 90
         }
       },
       detail: {
         modifiers: {
-          width: "602",
-          height: "451",
-          quality: "90"
+          width: 602,
+          height: 451,
+          quality: 90
         }
       }
     }
