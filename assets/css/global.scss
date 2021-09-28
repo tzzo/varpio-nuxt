@@ -245,7 +245,7 @@ a[href^="mailto"], a[href^="tel"] {
   text-decoration: underline black;
   text-underline-offset: 1px;
   &:hover {
-    color: blue;
+    color: blue !important;
     text-decoration-color: blue;
   }
 }

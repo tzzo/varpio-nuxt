@@ -84,6 +84,7 @@ export default {
 			//-width: 50%
 			span, a
 				display: block
+				color: #545454
 		.big
 			font-size: 29px
 			margin-bottom: 0
@@ -101,6 +102,7 @@ export default {
 		align-items: center
 		justify-content: center
 		padding: 24px 0
+		color: #545454
 		&:not(.big)
 			font-size: 20px
 	.footer-row
