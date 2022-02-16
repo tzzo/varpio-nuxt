@@ -1,0 +1,26 @@
+{
+  "name": "varpio-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "vue-silentbox": "^2.4.5"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.6.0",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "fibers": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^10.2.0"
+  }
+}

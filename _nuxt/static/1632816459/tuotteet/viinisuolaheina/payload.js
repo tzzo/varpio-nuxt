@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/viinisuolaheina", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/viinisuolaheina.jpg":"\u002F_nuxt\u002Fimage\u002Fb7d28a.jpg"}}],fetch:{},mutations:void 0});

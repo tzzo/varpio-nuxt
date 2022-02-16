@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/timjami", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/timjami.jpg":"\u002F_nuxt\u002Fimage\u002F9e3c58.jpg"}}],fetch:{},mutations:void 0});
