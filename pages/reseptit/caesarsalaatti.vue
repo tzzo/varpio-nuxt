@@ -6,10 +6,10 @@
         span 4 annosta
         span.recipe-title Ainekset:       
         ul.ingridients 
-          li 1 pussi Varpion friseesalaattia
-          li 1 pussi Varpion jääsalaattia
-          li 1 ruukku rucolaa
-          li 1 ruukku sareptansinappia
+          li 1 pussi Varpion makoisaa roomatarta
+          li 1 ruukku Varpion romainea
+          li 1 ruukku Varpion rucolaa
+          li 1 ruukku Varpion salaattimixiä
           li 100 g saksanpähkinää
           li 1 tl vaahterasiirappia
           li 2 tl voita

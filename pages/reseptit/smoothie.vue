@@ -9,7 +9,7 @@
           li 150 g pakastemansikkaa
           li 1 nektariini tai persikka
           li 1 passionhedelmä
-          li 6 oksaa minttua
+          li 6 oksaa Varpion minttua
           li 1/2 ruukkua Varpion pinaattia
           li 3 dl maitoa tai mieleistäsi kasvimaitoa
           li 1 tl hunajaa tai agavesiirappia

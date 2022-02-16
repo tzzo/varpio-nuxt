@@ -11,7 +11,7 @@
           li 2 kynttä valkosipulia
           li 1,5 dl oliivioljyä
           li Pieni loraus vaalea balsamicoa
-          li Basilakanlehtiä koristeeksi
+          li Varpion basilakanlehtiä koristeeksi
           li Suolaa
         span.recipe-title Valmistusohjeet
         ol

@@ -12,7 +12,7 @@
           li 4 Varpion tomaattia
           li Ruokalusikallinen tomaattipyreetä
           li 400 g paketti jauhelihaa tai 250 g paketti härkistä
-          li 1 pieni oksa rosmariinia
+          li 1 oksa Varpion rosmariinia
           li Hyppysellinen kanelia ja cayannea
           li Oliiviöljyä
         span.recipe-title Valmistusohjeet:

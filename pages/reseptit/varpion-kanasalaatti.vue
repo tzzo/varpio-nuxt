@@ -6,11 +6,10 @@
 				h1.title Varpion kanasalaatti
 				span.recipe-title Ainekset:
 				ul.ingridients 
-					li Varpion maustesalaatti mixiä
+					li Varpion salaattimixiä
 					li Varpion jääsalaattia
 					li Varpion kurkku
-					li Varpion retiisiä
-					li Varpion basilikaa
+					li Varpion punaista basilikaa
 					li Punasipulia
 					li Oliiveja
 					li 200 g broilerin fileetä
@@ -18,10 +17,10 @@
 					li (Varpion itsetehtyä pestoa tai tzatzikia)
 				span.recipe-title Valmistusohjeet:
 				ol
-					li Revi salaatteja oman maun mukaisessa suhteessa. Pilko kurkut ja viipaloi retiisit. Voit käyttää myös retiisin lehtiä salaatissa.
-					li Paista broilerinfileet oliiviöljyssä pannulla kypsäksi. Halutessasi voit kuullottaa myös retiisin viipaleita ja punasipulia oliiviöljyssä.
+					li Revi salaatteja oman maun mukaisessa suhteessa ja pilko kurkut.
+					li Paista broilerinfileet oliiviöljyssä pannulla kypsäksi. Halutessasi voit kuullottaa myös punasipulia oliiviöljyssä.
 					li Sekoita salaatit, kurkku ja basilikanlehtiä kulhossa.
-					li Lisää joukkoon oliivit, punasipuli, retiisit ja viipaloitu broilerin filee.
+					li Lisää joukkoon oliivit, punasipuli ja viipaloitu broilerin filee.
 					li Mausta itsetehdyllä Varpion pestolla, tzatzikilla tai oliiviöljyllä.
 			.right
 				nuxt-img(preset="detail" width="602" height="451" src="/img/recipes/kanasalaatti.jpg")

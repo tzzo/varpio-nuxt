@@ -10,7 +10,7 @@
           li 1 rkl karkeaa merisuolaa
           li 6 isoa perunaa
           li 6 Varpion tomaattia
-          li 6 oksaa rosmariinia
+          li 6 oksaa Varpion rosmariinia
           li 1 sitruuna
           li 2 ruukkua Varpion pinaattia
           li Loraus oliiviöljyä

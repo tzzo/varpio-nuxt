@@ -14,7 +14,7 @@
           li 1 dl ekstra-neitsytoliiviöljy
           li 1/2 sitruunan kuori ja mehu
           li 1 ruukku Varpion korianteria
-          li 1 ruukku rucolaa
+          li 1 ruukku Varpion rucolaa
           li Hyppysellinen suolaa
           li 4 rouhaisua mustapippuria myllystä
         span.recipe-title Valmistusohjeet:

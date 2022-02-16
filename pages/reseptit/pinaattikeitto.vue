@@ -3,14 +3,13 @@
   .container
     article.product
       .left
-        h1.title Pinaatti-nokkoskeitto
+        h1.title Pinaattikeitto
         span.recipe-title Ainekset:
         ul.ingridients 
           li 100 g voita
           li 1 dl vehnäjauhoja
           li 1 litra maitoa
-          li 1 ruukku Varpion nokkosta
-          li 1 ruukku Varpion pinaattia
+          li 2 ruukkua Varpion pinaattia
           li 1 kourallinen Varpion persiljaa
           li Ripaus suolaa
           li Hyppysellinen raastettua muskottipähkinä

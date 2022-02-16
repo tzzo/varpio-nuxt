@@ -11,7 +11,7 @@
           li 1 punainen paprika
           li 1 keltasipuli
           li 2 valkosipulin kynttä
-          li 4 oksaa timjamia
+          li 4 oksaa Varpion timjamia
           li (rypsiöljyä freesaukseen)
           li 1 iso viipale vaaleaa leipää
           li 1 dl ekstra-neitsytoliiviöljy

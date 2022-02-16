@@ -13,18 +13,17 @@
 		section.intro.container
 			.intro-block
 				h2.title.title-25 Korkealaatuista lähiruokaa
-				p Varpio Puutarha viljelee ja myy laadukkaita kotimaisia vihanneksia. Puutarhamme Orimattilassa tarjoaa Päijät-Hämeen ja Uudenmaan asukkaille mahdollisuuden nauttia lähellä kasvatettuja, maukkaita ja tuoreita kasviksia ympäri vuoden. Orimattilan puutarhalla on myös suoramyynti torstaisin ja perjantaisin.
+				p Varpio Puutarha viljelee ja myy laadukkaita kotimaisia vihanneksia. Puutarhamme Orimattilassa tarjoaa Hämeen, Uudenmaan ja Kymenlaakson asukkaille mahdollisuuden nauttia lähellä kasvatettuja, maukkaita ja tuoreita kasviksia ympäri vuoden. Kuljetamme tuotteet suoraan lähialueen kauppoihin ja puutarhalla toimii myös oma myymälä.
 			.intro-block
-				h2.title.title-25 Puhtaasti. Mukana myös maku
-				p Kaikki Varpio Puutarhan antimet on kasvatettu huolellisesti puhtauteen panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme tuotteet tarkasti käsityönä. Asiakas voi aina luottaa saavansa tavallista parempia, lähellä tuotettuja kotimaisia kasviksia.
+				h2.title.title-25 Puhtaasti, mukana myös maku
+				p Kaikki Varpio Puutarhan antimet ovat kasvatettu huolellisesti laatuun panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme ja pakkaamme kaikki tuotteet käsityönä. Kuljetamme tuotteet kauppoihin parhaimmillaan jo tunnin kuluttua sadonkorjuusta. Meiltä ostaessaan asiakas voi aina luottaa saavansa laadukkaita, lähellä kasvatettuja kasviksia. 
 
 		section.divider
 			nuxt-img(loading="lazy" width="1600" src="/img/divider.jpg" alt="Varpio puutarhan kasvihuone")
 		
 		section.products.container.text-center
 			h2.title-25 Tuotteet
-			p Varpion tuoteperheeseen kuuluu viitisentoista herkullista ja ravitsevaa kasvihuoneessa puhtaasti kasvatettua tuotetta. Kaikki värikkäät herkkumme kerätään ja pakataan käsityönä. Omat kuskimme toimittavat tuotteet kauppoihin parhaimmillaan parin tunnin sisällä sadonkorjuusta.
-			p Lajikevalinnoissa panostamme aina määrän sijasta makuun. Pyrimme jatkuvasti löytämään parempia lajikkeita ja myös kokonaan uusia tuotteita viljeltäväksi. Orimattilan puutarhan myymälästä voit löytää tuotteita, joita ei vielä kaupoista saa!
+			p Varpion tuoteperheeseen kuuluu yli neljäkymmentä raikasta, kasvihuoneessa puhtaasti kasvatettua tuotetta. Kasvisten lajikevalinnoissa panostamme aina ensisijaisesti makuun ja pyrimme aktiivisesti löytämään parempia lajikkeita viljeltäväksi. Teemme jatkuvaa kehitystyötä valikoimamme laajentamiseksi entisestään. Vieraillessasi Orimattilan puutarhan myymälässä voit löytää myynnistä tuotteita, joita ei vielä kaupoista saa!
 			.list-preview-wrap
 				NuxtLink.list-preview(to="tuotteet/basilika")
 					nuxt-img(preset="product" loading="lazy" src="/img/products/basilika.jpg" alt="Varpio puutarha basilika yrttiruukku")
@@ -53,19 +52,32 @@
 				h2.white Varpion Reseptit
 				NuxtLink.button-transparent-white(to="/reseptit") Katso kaikki reseptit
 		
-		section.about.container.text-center
-			h2.title-25 Kolmannen polven perheyritys
-			p Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua. Varpio Puutarha laajeni vuonna 1987, kun Orimattilaan rakennettiin uudet kasvihuoneet. Sittemmin vastuu yrityksestä on siirtynyt nuoremmalle sukupolvelle ja molemmat puutarhat jatkavat edelleen toimintaansa.
+		section.about.container
+			.text-center
+				h2.title-25 Kolmannen polven perheyritys 
+				p Varpio Puutarhan perustivat Virkkalaan vuonna 1970 Pirkko ja Antti Varpio yhdessä. Tuolloin toiminta käynnistyi kurkun viljelyllä. Puutarhan toiminta laajeni vuonna 1987, kun perustajasukupolven poika Hannu ryhtyi yrittäjäksi 23 vuoden iässä rakentaen Orimattilaan uudet kasvihuoneet, jotka ovat edelleen käytössä.
+				br
+				p Vuonna 2018 Hannun poika Tuukka yhdessä puolisonsa Iitun kanssa lähti Hannun kumppaniksi kehittämään perheyrityksen toimintaa.
 			.person-wrap
 				.person
 					nuxt-img(preset="person" loading="lazy" src="/img/hannu.jpg" alt="Varpio puutarha Hannu")
-					span.font-canvas Hannu
+					.person-text
+						span.font-canvas Hannu
+						p Yli 30 vuotta yrittäjänä toiminut Hannu tekee työtään väsymättä ja kelloa katsomatta. Hannu tuntee Orimattilan kasvihuoneet kuin omat taskunsa ja viljelyn lisäksi hänellä pysyy kädessä niin vasara, jakoavain kuin hitsipillikin.
+						p Työn ulkopuolella Hannu pitää kunnostaan huolta harrastamalla judoa sekä koskimelontaa.
 				.person
 					nuxt-img(preset="person" loading="lazy" src="/img/tuukka.jpg" alt="Varpio puutarha Tuukka")
-					span.font-canvas Tuukka
+					.person-text
+						span.font-canvas Tuukka
+						p Tuukka toimii yrityksen toimitusjohtajana. Paperitöiden ohella arkeen mahtuu paljon myös käytännön työtehtäviä. Kehitysprojektien lisäksi Tuukka suunnittelee ja osallistuu viljelytyöhön,  ylläpitää puutarhalla tarvittavia laitteita ja tuuraa tarvittaessa kuskiakin.
+						p Koulutukseltaan Tuukka on rakennustekniikan insinööri. Hän nauttii suuresti puutarhatyön monipuolisuudesta ja lähes rajattomilta tuntuvista kehittymismahdollisuuksista.
 				.person
 					nuxt-img(preset="person" loading="lazy" src="/img/iitu.jpg" alt="Varpio puutarha Iitu")
-					span.font-canvas Iitu
+					.person-text
+						span.font-canvas Iitu
+						p Iitu toimii puutarhalla tuotantopäällikkönä ja vastaa tuotannon ja töiden suunnittelusta. Hän vetää puutarhan noin 20 henkilön tuotantotiimiä. 
+						p Iitun tausta on kaupan alalla ja hän on tuonut puutarhalle asiakaslähtöisyyttä ja ymmärrystä vihanneskaupasta päivittäistavarakaupan näkökulmasta.
+
 		
 		section.garden
 			nuxt-img(src="/img/garden.jpg" loading="lazy" width="1600" height="536" alt="Varpio puutarha kasvihuone ja työntekijä")
@@ -169,23 +181,30 @@ export default {
 	.person-wrap
 		display: flex
 		justify-content: center
+		flex-direction: column
 		.person
 			display: flex
-			flex-direction: column
 			justify-content: center
 			align-items: center
 			padding: 16px
+			flex-direction: column
+			text-align: center
+			padding-bottom: 64px
 			img
 				display: inline-block
 				width: 100%
 				max-width: 280px
 				object-fit: contain
-			span
-				padding: 32px 0
-				font-size: 20px
-				letter-spacing: .6px
+				padding-bottom: 32px
 			@media (min-width: 768px)
-				padding: 32px
+				padding: 52px 32px
+				flex-direction: row
+				text-align: left
+				&:nth-child(2)
+					flex-direction: row-reverse
+				img
+					padding-right: 32px
+					padding-bottom: 0
 		@media (max-width: 500px)
 			flex-wrap: wrap
 
@@ -220,4 +239,13 @@ export default {
 			max-width: 700px
 			text-align: center
 			margin: 32px auto
+	.person-text
+		max-width: 600px
+		padding: 0 32px
+		.font-canvas
+			font-size: 25px
+			letter-spacing: .6px
+			display: block
+			padding-bottom: 16px
+			color: #545454
 </style>

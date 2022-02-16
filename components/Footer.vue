@@ -12,14 +12,17 @@
 							span Luhtaistentie 11
 							span 16300 Orimattila
 						.footer-row-50
-							a(href="tel:+358405506879") 040 550 6879
 							a(href="mailto:hannu@varpio.fi") hannu@varpio.fi
+							a(href="tel:+358405506879") 040 550 6879
+							br
+							a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
+							a(href="tel:+358405506879") 040 825 7601
 				.footer-row
 					span.title.font-canvas Puutarhamyymälä
 					.wrap
 						.footer-row-50
 							span Myymälä avoinna:
-							span To-pe 10-14
+							span To-pe 08:00-15:30 
 						.footer-row-50
 							span Luhtaistentie 11
 							span 16300 Orimattila
