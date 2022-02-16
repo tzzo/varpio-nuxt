@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/pinaatti-nokkoskeitto", {data:[{_img:{"/_ipx/q_90,s_602x451/img/recipes/pinaatti_nokkoskeitto.jpg":"\u002F_nuxt\u002Fimage\u002F6c5551.jpg"}}],fetch:{},mutations:void 0});
