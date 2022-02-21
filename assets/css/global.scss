@@ -42,6 +42,7 @@ h1, h2 {
     display: block;
     font-family: $font-canvas;
     margin-bottom: 24px;
+    text-align: center;
   }
   ul, ol {
     margin: 0 0 32px;
@@ -59,6 +60,9 @@ h1, h2 {
   @media (min-width: 500px) {
     padding-top: 40px;
     padding-bottom: 40px;
+    .title {
+      text-align: left;
+    }
   }
 }
 

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/munavoi", {data:[{_img:{"/_ipx/q_100,s_602x451/img/recipes/munavoi.jpg":"\u002F_nuxt\u002Fimage\u002F9e765a.jpg"}}],fetch:{},mutations:void 0});

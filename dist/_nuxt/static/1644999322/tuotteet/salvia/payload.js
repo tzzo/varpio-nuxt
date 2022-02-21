@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/salvia", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/salvia.jpg":"\u002F_nuxt\u002Fimage\u002F487163.jpg"}}],fetch:{},mutations:void 0});

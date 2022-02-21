@@ -175,16 +175,16 @@ export default {
     metaTitle() {
       return setMetaTitle(this.pageTitle)
     },
-    //-metaDesc() {
-    //-  return setMetaDescription('')
-    //-}
+    metaDesc() {
+      return setMetaDescription('Varpion tuoteperheeseen kuuluu viitisentoista herkullista ja ravitsevaa kasvihuoneessa puhtaasti kasvatettua tuotetta. Kaikki värikkäät herkkumme kerätään ja pakataan käsityönä.')
+    }
   },
   head() {
     return {
       title: this.pageTitle,
       meta: [
         ...this.metaTitle,
-        //-...this.metaDesc
+        ...this.metaDesc
       ]
     }
   },

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/meirami", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/meirami.jpg":"\u002F_nuxt\u002Fimage\u002F6187d0.jpg"}}],fetch:{},mutations:void 0});

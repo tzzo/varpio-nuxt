@@ -40,7 +40,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/content
+    '@nuxtjs/gtm'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -62,7 +62,8 @@ export default {
       product: {
         modifiers: {
           width: 450,
-          height: 393
+          height: 393,
+          quality: 95
         }
       },
       recipe: {
@@ -74,17 +75,20 @@ export default {
         modifiers: {
           width: 480,
           height: 480,
-          quality: 90
+          quality: 95
         }
       },
       detail: {
         modifiers: {
           width: 602,
           height: 451,
-          quality: 90
+          quality: 100
         }
       }
     }
+  },
+  gtm: {
+    id: 'UA-128054030-1'
   }
 }
   

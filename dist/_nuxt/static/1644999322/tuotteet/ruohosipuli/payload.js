@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/ruohosipuli", {data:[{_img:{"/_ipx/q_90,s_602x451/img/products/ruohosipuli.jpg":"\u002F_nuxt\u002Fimage\u002F69c142.jpg"}}],fetch:{},mutations:void 0});

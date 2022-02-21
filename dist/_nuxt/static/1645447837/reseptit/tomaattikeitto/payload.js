@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/tomaattikeitto", {data:[{_img:{"/_ipx/q_100,s_602x451/img/recipes/tomaattikeitto.jpg":"\u002F_nuxt\u002Fimage\u002F5188bb.jpg"}}],fetch:{},mutations:void 0});

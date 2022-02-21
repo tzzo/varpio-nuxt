@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/sienipasta", {data:[{_img:{"/_ipx/q_90,s_602x451/img/recipes/pasta.jpg":"\u002F_nuxt\u002Fimage\u002F6ab4ba.jpg"}}],fetch:{},mutations:void 0});

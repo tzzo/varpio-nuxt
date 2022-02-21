@@ -77,16 +77,16 @@ export default {
     metaTitle() {
       return setMetaTitle(this.pageTitle)
     },
-    //-metaDesc() {
-    //-  return setMetaDescription('')
-    //-}
+    metaDesc() {
+      return setMetaDescription('Varpio Puutarhan antimista löydät parhaita ainesosia moniin arkisiin herkkuihin. Tälle sivulle kokoamme parhaimman makuiset tavat hyödyntää tuotteitamme.')
+    }
   },
   head() {
     return {
       title: this.pageTitle,
       meta: [
         ...this.metaTitle,
-        //-...this.metaDesc
+        ...this.metaDesc
       ]
     }
   },
