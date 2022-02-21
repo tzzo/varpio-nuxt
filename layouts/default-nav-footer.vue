@@ -1,9 +1,6 @@
 <template lang="pug">
-  div
+  .layout-wrap
     Nav
     Nuxt
     Footer
 </template>
-
-<style lang="sass">
-</style>

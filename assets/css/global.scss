@@ -34,6 +34,7 @@ h1, h2 {
 
 .product {
   display: flex;
+  margin-top: 80px;
   padding-bottom: 80px;
   flex-direction: column-reverse;
   .title {
@@ -59,7 +60,7 @@ h1, h2 {
   }
   @media (min-width: 500px) {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     .title {
       text-align: left;
     }
@@ -204,6 +205,7 @@ h1, h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 77px;
   h1 {
     color: white;
     font-size: 51px;

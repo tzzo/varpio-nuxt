@@ -1,21 +1,22 @@
 <template lang="pug">
-	nav.navigation(:class="{'sticky-nav': scrollPosition > 400 && !menuToggle, 'sticky-nav-exit': scrollPosition > 150 && scrollPosition < 420 && !menuToggle && !scrollingDown, 'nav-index': $nuxt.$route.path === '/'}")
-		NuxtLink.logo-wrap(to="/")
-			img.white(src="~/assets/img/logo_valkoinen.png" v-if="$nuxt.$route.path === '/'" alt="Varpio puutarha valkoinen logo" aria-label="Etusivu")
-			img.green.logo(src="~/assets/img/logo_green.png" alt="Varpio puutarha vihreä logo" aria-label="Etusivu")
-		button.nav-toggle.open-toggle(aria-expanded="false" aria-controls="menu")
-			span
-			span
-			span
-		ul#menu(hidden)
-			li
-				NuxtLink(to="/") Etusivu
-			li
-				NuxtLink(to="/tuotteet") Tuotteet
-			li
-				NuxtLink(to="/reseptit") Reseptit
-			li
-				a(href="#footer") Yhteystiedot
+	.nav-wrap
+		nav.navigation(:class="{'sticky-nav': scrollPosition > 400 && !menuToggle, 'sticky-nav-exit': scrollPosition > 150 && scrollPosition < 420 && !menuToggle && !scrollingDown, 'nav-index': $nuxt.$route.path === '/'}")
+			NuxtLink.logo-wrap(to="/")
+				img.white(src="~/assets/img/logo_valkoinen.png" v-if="$nuxt.$route.path === '/'" alt="Varpio puutarha valkoinen logo" aria-label="Etusivu")
+				img.green.logo(src="~/assets/img/logo_green.png" alt="Varpio puutarha vihreä logo" aria-label="Etusivu")
+			button.nav-toggle.open-toggle(aria-expanded="false" aria-controls="menu")
+				span
+				span
+				span
+			ul#menu(hidden)
+				li
+					NuxtLink(to="/") Etusivu
+				li
+					NuxtLink(to="/tuotteet") Tuotteet
+				li
+					NuxtLink(to="/reseptit") Reseptit
+				li
+					a(href="#footer") Yhteystiedot
 
 </template>
 
@@ -117,6 +118,8 @@ export default {
 					&:hover
 						color: black
 		&:not(.nav-index)
+			background-color: white
+			min-height: 77px
 			a
 				color: #545454
 				&:hover
@@ -232,5 +235,11 @@ body.noscroll
 		display: none
 	.green
 		display: block
+
+.nav-wrap
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
 
 </style>

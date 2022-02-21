@@ -11,7 +11,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua.' }
+      { hid: 'description', name: 'description', content: 'Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua.' },
+      { hid: 'og:description', property: 'og:description', content: 'Varpio Puutarhan perustivat Pirkko ja Antti Varpio Virkkalaan vuonna 1970. Toiminta alkoi viljelemällä kesäkukkia ja joulutähtiä sekä tomaattia ja kurkkua.' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:image', property: 'og:image', content: '' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '' }
     ],
     link: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -40,7 +45,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/gtm'
+    '@nuxtjs/gtm',
+    '@nuxtjs/sitemap'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -89,6 +95,9 @@ export default {
   },
   gtm: {
     id: 'UA-128054030-1'
+  },
+  sitemap: {
+    hostname: 'https://varpio.fi'
   }
 }
   
