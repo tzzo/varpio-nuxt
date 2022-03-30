@@ -27,7 +27,7 @@
         NuxtLink.list-preview(to="/reseptit/persiljavinegrette")
           nuxt-img(preset="recipe" width="375" height="261" loading="lazy" src="/img/recipes/persiljavinegrette.jpg")
           span Persiljavinegrette
-        NuxtLink.list-preview(to="/reseptit/pinaatti")
+        NuxtLink.list-preview(to="/reseptit/pinaattikeitto")
           nuxt-img(preset="recipe" width="375" height="261" loading="lazy" src="/img/recipes/pinaatti_nokkoskeitto.jpg")
           span Pinaattikeitto
         NuxtLink.list-preview(to="/reseptit/punainen-gazpacho")

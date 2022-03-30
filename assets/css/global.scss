@@ -32,6 +32,12 @@ h1, h2 {
   padding: 0 16px;
 }
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
 .product {
   display: flex;
   margin-top: 80px;
@@ -102,7 +108,8 @@ h1, h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 40px -16px 40px;
+  margin: 40px auto 40px;
+  max-width: 1200px;
 }
 
 .list-preview {
