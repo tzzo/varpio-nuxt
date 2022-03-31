@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1648666931",layout:"default-nav-footer",error:a,serverRendered:true,routePath:"\u002Freseptit\u002Fsienipasta",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}},_img:{"/_ipx/q_100,s_602x451/img/recipes/pasta.jpg":"\u002F_nuxt\u002Fimage\u002F6d1479.jpg"}}}(null));

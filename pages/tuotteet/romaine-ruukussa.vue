@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Romaine ruukussa
-        p
+        p Vihreä roomansalaatti ruukussa. Käytetään perinteisesti Caesar-salaatissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/romaine-ruukussa.jpg")
 </template>

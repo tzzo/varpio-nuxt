@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Punainen mehevä lehtisalaatti
-        p
+        p Punalehtinen, tavallista rapeampi lehtisalaatti. Säilytä omassa pussissaan jääkaapissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/punainen-meheva-lehtisalaatti.jpg")
 </template>

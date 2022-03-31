@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Lehtikaali pussissa
-        p Varpion perinteikäs kurkku pakataan käsin käteviin pusseihin, jotka on helppo sulkea uudelleen. Kurkku on erittäin vesipitoinen vihannes: siinä on vain 3% kuiva-ainetta ja 97% vettä! Kurkku edistää suolen toimintaa, hiusten kasvua sekä ehkäisee kynsien haurastumista. Säilytä viileäkaapissa tai huoneenlämmössä.
+        p Lehtikaali on ravintorikas, kuitupitoinen, maukas ja monikäyttöinen lehtivihannes. Lehtiruodin paksuimman osan poistamisen jälkeen lehtikaali voidaan kypsentää pannulla tai uunissa paistamalla, tai lisäämällä se kastikkeiden tai patojen joukkoon kypsennyksen loppuvaiheessa. Lehtikaali voidaan kypsentää myös keittämällä tai höyryttämällä muiden vihannesten tavoin. Kaalin maku sopii parhaiten yhteen sienien, juuresten ja vaalean kalan kanssa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/lehtikaali-pussissa.jpg")
 </template>

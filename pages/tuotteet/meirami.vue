@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Meirami
-        p 
+        p Meirami on pitkään suomessa käytetty, wanhan kansan mausteyrtti. Sen tunnetuin käyttökohde lienee perinteinen suomalainen hernekeitto. Sen maku on hento ja hienostunut, sukulaisiaan oreganoa ja minttua miedompi. Se sopii parhaiten kevyiden lämpimien ruokien mausteeksi, kuten kanalle tai vaalealle kalalle, haudutetuille kasviksille tai risotolle. 
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/meirami.jpg")
 </template>

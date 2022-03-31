@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Salvia
-        p
+        p Salvia on voimakas mausteyrtti, jonka maku on makea, karvas ja hieman mäntymainen. Salvia on parhaimmillaan kypsennetyissä, raskaissa (rasvaisissa) ruuissa. Se tuo raikkautta ja syvyyttä juustoisiin pastoihin, riistaruokiin, munakkaisiin. Sopii erittäin hyvin yhteen mustapippurin kanssa. Salvian aromi säilyy mainiosti myös kuivatessa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/salvia.jpg")
 </template>

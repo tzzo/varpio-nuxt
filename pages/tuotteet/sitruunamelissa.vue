@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Sitruunamelissa
-        p
+        p Raikas sitruunamelissa tuo kesäisen tunnelman ruokiisi ympäri vuoden. Sopii mintun tavoin makuvesiin, drinkkeihin, jälkiruokiin marjojen kanssa, sekä smoothiehin. Sitruunamelissaa voidaan myös käyttää sitruunankuoren yhteydessä tai asemesta keittoihin, patoihin, kastikkeisiin ja vinegretteihin.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/sitruunamelissa.jpg")
 </template>

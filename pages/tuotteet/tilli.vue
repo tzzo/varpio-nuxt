@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Tilli
-        p
+        p Suomalaisten paljon suosima tilli sopii klassisesti yhteen uusien perunoiden, savukalan sekä kalakeiton kanssa. Tilli sopii myös moneen muuhunkin, esimerkiksi lihapatoihin, ruisleivän päälle, kurkkupikkelseihin, salaatteihin, sekä rapujen kanssa tarjoiltavaksi. Tillistä sopii käytettäväksi lehdet ja hennoimmat varret sellaisenaan - paksuimmat varret sopivat esim. perunoiden keitinveden tai kalakeiton liemen maustamiseen. Kokkaillessa tilli tulee lisätä vasta juuri ennen tarjoilua, jotta se säilyy raikkaan makuisena ja kirkkaan vihreänä.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/tilli.jpg")
 </template>

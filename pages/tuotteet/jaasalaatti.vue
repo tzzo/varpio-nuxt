@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Jääsalaatti
-        p Suosittu jääsalaatti on rapean keräsalaatin ja lehtisalaatin risteytys, joka on lehtevää ja rapeaa. Sopii hyvin salaattisekoituksiin antamaan jämäkkyyttä salaatille. Se ei myöskään nuudu niin nopeasti kuin pehmeälehtiset salaatit. Kestää myös jonkin verran kuumennusta. Säilytä omassa pussissaan jääkaapissa.
+        p Suosittu jääsalaatti on rapean keräsalaatin ja lehtisalaatin risteytys, joka on lehtevää ja rapeaa. Säilytä omassa pussissaan jääkaapissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/jaasalaatti.jpg")
 </template>

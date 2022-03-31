@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Rosmariini
-        p Rosmariini on erinomainen yrtti, joka sopii erityisen hyvin liharuokien ja marinointiliemien mausteeksi. Intensiivisen makunsa lisäksi rosmariini on tunnettu jo vuosisatoja terveyttä edistävänä rohtona. Rosmariini esimerkiksi hillitsee tulehduksia, parantaa ruuansulatusta ja verenkiertoa. Lisäksi se on tehokas antioksidantti ja auttaa alentamaan kolesterolia. Kokeile myös ginin mausteena! Säilytä viileässä tai ikkunalaudalla kevyesti kastellen.
+        p Rosmariini on yksi valikoimamme vahvimmista ja täten riittoisimmista yrteistä. Rosmariinin aromi on kompleksinen ja erottuva, hieman metsäinen/mäntyinen, mentolinen ja pippurinen. Rosmariini sopii yhteen raskaiden ruokien, kuten lihapatojen, sienten, paahdettujen perunoiden ja juuresten kanssa, sekä makupariksi punaviinille, valkosipulille ja mustapippurille. Kokeile rosmariinia myös Gin & Tonicin mausteena yhdessä karpaloiden kanssa. Rosmariinin aromi säilyy mainiosti myös kuivatessa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/rosmariini.jpg")
 </template>

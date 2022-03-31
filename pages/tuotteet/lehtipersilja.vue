@@ -3,7 +3,10 @@
     article.product
       .left
         h1.title Lehtipersilja
-        p Erittäin monikäyttöinen mausteyrtti kaikkeen ruuanlaittoon. Kokeile vaikka keittoihin tai kastikkeisiin. Persiljalla on lisäksi lukuisia terveysvaikutuksia etenkin tuoreena nautittuna; se muun muassa raikastaa hengityksen ja auttaa ruuansulatusvaivoihin ja sisältää paljon mineraaleja ja antioksidantteja. Säilytä jääkaapissa tai ikkunalaudalla ja muista kastella.
+        p 
+          | Lehtipersilja eli lepe on maultaan raikas ja ryhdikäs yrtti, joka on välimeren ruokakulttuurissa paljon käytetty. Lehtipersilja sopii hyvin käytettäväksi grillatun kalan, pastaruokien ja salaattien kanssa, esim. 
+          nuxt-link(to="/reseptit/persiljavinegrette") vinegreten muodossa
+          | . Muita oivia makupareja lepelle ovat sitruuna, oliivit, tomaatti ja kaprikset.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/lehtipersilja.jpg")
 </template>

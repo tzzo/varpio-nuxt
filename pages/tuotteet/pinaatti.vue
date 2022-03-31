@@ -3,7 +3,14 @@
     article.product
       .left
         h1.title Pinaatti
-        span Herkullinen ruukkupinaatti soveltuu hyvin tuoreeltaan salaatteihin ja smoothieen tai kypsänä moniin eri ruokiin, kuten kasvispihvit, pinaattiletut tai pinaattikeitto. Katso herkullinen Varpion pinaattikeiton ohje sivujemme reseptiosiosta. Tätä nuorta ja pehmeää pinaattia ei tarvitse ryöpätä. Säilytä viileässä tai ikkunalaudalla ja muista kastella.
+        span 
+          | Pinaatti on monipuolinen, erittäin maukas, kypsentämiseenkin sopiva lehtivihannes. Ravintorikas pinaatti sopii kevyesti paistettuna vaikkapa brunssin lisukkeeksi tai sellaisenaan salaatteihin ja 
+          nuxt-link(to="/reseptit/smoothie") smoothiehin
+          | . Perinteisesti Suomessa pinaattia on käytetty pinaattikeittoon ja -ohukaisiin. 
+        br
+        span Saatavilla ruukun lisäksi myös 
+          nuxt-link(to="/tuotteet/pinaatti-rasia") 50 g rasioissa
+          | .
       .right
         nuxt-img(preset="detail" width="602" height="451" src="img/products/pinaatti.jpg")
 </template>

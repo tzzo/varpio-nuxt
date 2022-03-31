@@ -3,7 +3,10 @@
     article.product
       .left
         h1.title Persilja
-        p Erittäin monikäyttöinen mausteyrtti kaikkeen ruuanlaittoon. Kokeile vaikka keittoihin tai kastikkeisiin. Persiljalla on lisäksi lukuisia terveysvaikutuksia etenkin tuoreena nautittuna; se muun muassa raikastaa hengityksen ja auttaa ruuansulatusvaivoihin ja sisältää paljon mineraaleja ja antioksidantteja. Säilytä jääkaapissa tai ikkunalaudalla ja muista kastella.
+        p 
+          | Persilja on rakenteeltaan tukeva, pitkään hyvänä säilyvä yrtti. Sen voimakas vihreä väri ja raikas maku tuovat ryhtiä ruokiin. Persilja sopii maultaan hyvin yhteen monien perinteisten suomalaisten ruokien, kuten lihapatojen, siskonmakkarakeiton tai 
+          nuxt-link(to="/reseptit/munavoi") munavoin
+          |  kanssa. Persiljaa voidaan käyttää sellaisenaan, mutta se ei myöskään säikähdä pientä kuumennusta. Kypsennettäviin ruokiin hienonnettu persilja tulee kuitenkin lisätä vasta aivan kokkauksen loppuvaiheessa, jotta se säilyttää makunsa ja värinsä. 
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/persilja.jpg")
 </template>

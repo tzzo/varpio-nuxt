@@ -26,7 +26,7 @@
 					p Kaikki Varpio Puutarhan antimet ovat kasvatettu huolellisesti laatuun panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme ja pakkaamme kaikki tuotteet käsityönä. Kuljetamme tuotteet kauppoihin parhaimmillaan jo tunnin kuluttua sadonkorjuusta. Meiltä ostaessaan asiakas voi aina luottaa saavansa laadukkaita, lähellä kasvatettuja kasviksia. 
 
 		section.divider
-			nuxt-img(loading="lazy" width="1600" src="/img/hannu_divider.jpg" alt="Varpio puutarhan kasvihuone")
+			nuxt-img(loading="lazy" width="2000" src="/img/hannu_divider.jpg" alt="Varpio puutarhan kasvihuone")
 		
 		section.products.container.text-center
 			h2.title-25 Tuotteet

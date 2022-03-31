@@ -253,7 +253,7 @@ h1, h2 {
   }
 }
 
-a[href^="mailto"], a[href^="tel"] {
+a[href^="mailto"], a[href^="tel"], .product a {
   color: black;
   text-decoration: underline black;
   text-underline-offset: 1px;

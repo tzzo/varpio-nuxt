@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Ruohosipuli
-        p
+        p Ruohosipuli tuo moneen kotiruokaan hienostuneen lisän. Hienonnettu ruohosipuli sopii hyvin yhteen muun muassa munakokkelin, keitettyjen perunoiden, savustetun kalan, mätien ja katkarapujen kera. Kypsennettäviin ruokiin ruohosipuli tulee lisätä vasta juuri ennen tarjoilua.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/ruohosipuli.jpg")
 </template>
