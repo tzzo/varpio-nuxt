@@ -5,9 +5,7 @@
       h1 Reseptit
     section.recipes.container
       .sub-page-intro
-        p Varpio Puutarhan antimista löydät parhaita ainesosia moniin arkisiin herkkuihin. Kauniit ja riittoisat yrttimme toimivat mainiosti myös juhlapöydän koristeena. Vihannekset ovat terveellisen ruokavalion perusta, mutta tälle sivulle kokoamme parhaimman makuiset tavat hyödyntää tuotteitamme. Vinkkejä hyvistä resepteistä voi lähettää Facebook-sivuillemme tai sähköpostilla osoitteeseen 
-          a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
-          | .
+        p Varpio Puutarhan antimista löydät parhaita ainesosia moniin arkisiin herkkuihin. Kauniit ja riittoisat yrttimme toimivat mainiosti myös juhlapöydän koristeena. Vihannekset ovat terveellisen ruokavalion perusta, mutta tälle sivulle kokoamme parhaimman makuiset tavat hyödyntää tuotteitamme.
       .list-preview-wrap
         NuxtLink.list-preview(to="/reseptit/bolognese")
           nuxt-img(preset="recipe" width="375" height="261" src="/img/recipes/bolognese.jpg")
