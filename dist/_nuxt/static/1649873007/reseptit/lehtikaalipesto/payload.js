@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reseptit/lehtikaalipesto", {data:[{_img:{"/_ipx/q_100,s_602x451/img/recipes/lehtikaalipesto.jpg":"\u002F_nuxt\u002Fimage\u002F314f7c.jpg"}}],fetch:{},mutations:void 0});

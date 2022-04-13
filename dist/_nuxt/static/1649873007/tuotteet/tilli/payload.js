@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tuotteet/tilli", {data:[{_img:{"/_ipx/q_100,s_602x451/img/products/tilli.jpg":"\u002F_nuxt\u002Fimage\u002Fe9464c.jpg"}}],fetch:{},mutations:void 0});
