@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Makoisa roomatar
-        p
+        p Vihreä roomansalaatti. Käytetään perinteisesti Caesar-salaatissa. Säilytä omassa pussissaan jääkaapissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/makoisa-roomatar.jpg")
 </template>

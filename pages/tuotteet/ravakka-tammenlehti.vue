@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Räväkkä tammenlehti
-        p
+        p Punasävyinen tammenlehtisalaatti. Säilytä omassa pussissaan jääkaapissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/ravakka-tammenlehti.jpg")
 </template>

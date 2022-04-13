@@ -3,7 +3,14 @@
     article.product
       .left
         h1.title Pinaatti rasia
-        p
+        span 
+          | Pinaatti on monipuolinen, erittäin maukas, kypsentämiseenkin sopiva lehtivihannes. Ravintorikas pinaatti sopii kevyesti paistettuna vaikkapa brunssin lisukkeeksi tai sellaisenaan salaatteihin ja 
+          nuxt-link(to="/reseptit/smoothie") smoothiehin
+          | . Perinteisesti Suomessa pinaattia on käytetty pinaattikeittoon ja -ohukaisiin. 
+        br
+        span Saatavilla myös 
+          nuxt-link(to="/tuotteet/pinaatti") ruukussa
+          | .
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/pinaatti-rasia.jpg")
 </template>

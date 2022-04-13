@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tuotteet/lehtipersilja", {data:[{_img:{"/_ipx/q_100,s_602x451/img/products/lehtipersilja.jpg":"\u002F_nuxt\u002Fimage\u002F563d35.jpg"}}],fetch:{},mutations:void 0});

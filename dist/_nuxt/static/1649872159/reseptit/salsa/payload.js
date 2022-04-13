@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/salsa", {data:[{_img:{"/_ipx/q_100,s_602x451/img/recipes/salsa.jpg":"\u002F_nuxt\u002Fimage\u002F1166a4.jpg"}}],fetch:{},mutations:void 0});

@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Kepeä tumma frisee
-        p 
+        p Tummanvihreä friseesalaatti. Säilytä omassa pussissaan jääkaapissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/tumma-frisee.jpg")
 </template>

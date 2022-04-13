@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/reseptit/nopea-marinara-kastike", {data:[{_img:{"/_ipx/q_100,s_602x451/img/recipes/marinara.jpg":"\u002F_nuxt\u002Fimage\u002F6a617c.jpg"}}],fetch:{},mutations:void 0});

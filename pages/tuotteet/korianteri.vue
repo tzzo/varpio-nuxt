@@ -3,7 +3,12 @@
     article.product
       .left
         h1.title Korianteri
-        p Korianteri on yksi maailman vanhimmista maustekasveista. Korianterilla on ruuansulatusta edistävä vaikutus ja se sisältää paljon ravintoaineita ja mineraaleja, kuten kalsiumia, kaliumia, magnesiumia ja fosforia. Sillä voi esimerkiksi maustaa salaatteja ja lämpimiä ruokia, joihin ne lisätään vasta valmistuksen loppuvaiheessa.
+        p 
+          | Korianterin maku on hienostunut ja sitruksinen, joka säilyy parhaiten kun korianteri lisätään ruokaan vasta juuri ennen tarjoilua, kuumennusta korianteri ei kestä. Korianterista tulee käyttää kaikki osat, varsinkin varret ovat korianterissa erittäin maukkaita. Käytä esim. tortilloiden kanssa sellaisenaan, shakshukan, dippikastikkeiden, 
+          nuxt-link(to="/reseptit/salsa") salsan
+          | , 
+          nuxt-link(to="/reseptit/vihrea-harissatahna") harissatahnan
+          |  tai coleslawin maustamiseen. 
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/korianteri.jpg")
 </template>

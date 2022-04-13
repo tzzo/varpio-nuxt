@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Punainen basilika
-        p
+        p Punainen basilika on vihreää sukulaistaan voimakkaamman makuinen, ja sen lehdet ovat hieman vahvemmat. Violetit basilikanlehdet tekevät salaateista, alkupalalautasista, pizzoista ja pastoista näyttävän näköisiä.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/punainen-basilika.jpg")
 </template>

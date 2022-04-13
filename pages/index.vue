@@ -1,25 +1,32 @@
 <template lang="pug">
 	.index
 		section.header
-			img.fade-in(src="/img/header-og.jpg" 
+			img.fade-in.header-bg(src="/img/header-og.jpg" 
 				alt="Varpio puutarha kasvihuone" 
 				srcset="/img/header-700.jpg 700w, /img/header-1200.jpg 1200w, /img/header-og.jpg 1400w")
 
 			//-nuxt-img(fit="cover" width="1600" src="/img/header.jpg" alt="Varpio puutarha logo" loading="eager")
 			Nav(:page="'index'")
 			.container
-				h1 Varpio puutarha
+				//-h1 Varpio puutarha
+				h1
+					nuxt-img.fade-in.lander-logo(src="/img/logo-lander.svg" alt="Varpio puutarha")
 
-		section.intro.container
-			.intro-block
-				h2.title.title-25 Korkealaatuista lähiruokaa
-				p Varpio Puutarha viljelee ja myy laadukkaita kotimaisia vihanneksia. Puutarhamme Orimattilassa tarjoaa Hämeen, Uudenmaan ja Kymenlaakson asukkaille mahdollisuuden nauttia lähellä kasvatettuja, maukkaita ja tuoreita kasviksia ympäri vuoden. Kuljetamme tuotteet suoraan lähialueen kauppoihin ja puutarhalla toimii myös oma myymälä.
-			.intro-block
-				h2.title.title-25 Puhtaasti, mukana myös maku
-				p Kaikki Varpio Puutarhan antimet ovat kasvatettu huolellisesti laatuun panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme ja pakkaamme kaikki tuotteet käsityönä. Kuljetamme tuotteet kauppoihin parhaimmillaan jo tunnin kuluttua sadonkorjuusta. Meiltä ostaessaan asiakas voi aina luottaa saavansa laadukkaita, lähellä kasvatettuja kasviksia. 
+		section.intro-wrapper.container
+			.intro-block-header.lg
+				h2 Kotimaisia vihanneksia ympäri vuoden Orimattilasta
+			.intro
+				.intro-block.intro-block-header.xl
+					h2 Kotimaisia vihanneksia ympäri vuoden Orimattilasta
+				.intro-block
+					h3.title.title-25 Korkealaatuista lähiruokaa
+					p Varpio Puutarha viljelee ja myy laadukkaita kotimaisia vihanneksia. Puutarhamme Orimattilassa tarjoaa Hämeen, Uudenmaan ja Kymenlaakson asukkaille mahdollisuuden nauttia lähellä kasvatettuja, maukkaita ja tuoreita kasviksia ympäri vuoden. Kuljetamme tuotteet suoraan lähialueen kauppoihin ja puutarhalla toimii myös oma myymälä.
+				.intro-block
+					h3.title.title-25 Puhtaasti, mukana myös maku
+					p Kaikki Varpio Puutarhan antimet ovat kasvatettu huolellisesti laatuun panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme ja pakkaamme kaikki tuotteet käsityönä. Kuljetamme tuotteet kauppoihin parhaimmillaan jo tunnin kuluttua sadonkorjuusta. Meiltä ostaessaan asiakas voi aina luottaa saavansa laadukkaita, lähellä kasvatettuja kasviksia. 
 
 		section.divider
-			nuxt-img(loading="lazy" width="1600" src="/img/divider.jpg" alt="Varpio puutarhan kasvihuone")
+			nuxt-img(loading="lazy" width="2000" src="/img/hannu_divider.jpg" alt="Varpio puutarhan kasvihuone")
 		
 		section.products.container.text-center
 			h2.title-25 Tuotteet
@@ -47,7 +54,7 @@
 			NuxtLink.button-transparent(to="/tuotteet") Katso kaikki tuotteet
 
 		section.recipes
-			nuxt-img(src="/img/recipes.jpg" alt="Marinara kastike" loading="lazy")
+			nuxt-img(src="/img/resepti_divider.jpg" alt="Marinara kastike" loading="lazy")
 			.container
 				h2.white Varpion Reseptit
 				NuxtLink.button-transparent-white(to="/reseptit") Katso kaikki reseptit
@@ -116,7 +123,7 @@ export default {
 	.header
 		min-height: 100vh
 		display: flex
-		img 
+		.header-bg
 			height: 100%
 			max-height: 100vh
 			position: absolute
@@ -128,7 +135,6 @@ export default {
 		.container
 			display: flex
 			align-items: center
-			z-index: 100
 			h1 
 				font-size: 50px
 				color: white
@@ -143,6 +149,7 @@ export default {
 		margin: auto
 		text-align: center
 		flex-wrap: wrap
+	.intro-wrapper
 		padding: 80px 0 64px
 	.intro-block
 		padding: 32px
@@ -150,7 +157,7 @@ export default {
 		@media (min-width: 500px)
 			min-width: 400px	
 			max-width: 530px
-			margin: auto
+			margin: 0 auto
 	.divider
 		img
 			width: 100%
@@ -182,6 +189,9 @@ export default {
 		display: flex
 		justify-content: center
 		flex-direction: column
+		@media (min-width: 1600px)
+			flex-direction: row
+			align-items: flex-start
 		.person
 			display: flex
 			justify-content: center
@@ -196,7 +206,7 @@ export default {
 				max-width: 280px
 				object-fit: contain
 				padding-bottom: 32px
-			@media (min-width: 768px)
+			@media (min-width: 768px) and (max-width: 1600px)
 				padding: 52px 32px
 				flex-direction: row
 				text-align: left
@@ -205,6 +215,8 @@ export default {
 				img
 					padding-right: 32px
 					padding-bottom: 0
+			@media (min-width: 1600px)
+				padding: 80px 16px 100px
 		@media (max-width: 500px)
 			flex-wrap: wrap
 
@@ -248,4 +260,32 @@ export default {
 			display: block
 			padding-bottom: 16px
 			color: #545454
+	.lander-logo
+		max-width: 290px
+		max-height: 290px
+		display: inline-block
+		width: 100%
+		z-index: 0
+	.intro-block-header
+		@media (min-width: 768px)
+			margin: 32px 0
+		h2
+			font-size: 42px
+			line-height: 1.2
+			color: #545454
+			text-align: center
+			margin: 0
+
+	.intro-block-header.xl
+		display: none
+	@media (min-width: 1400px)
+		.intro-block-header.lg
+			display: none
+		.intro-block-header.xl
+			display: block
+		.intro-block, .intro-block-header h2
+			text-align: left !important
+			min-width: 0
+		
+
 </style>

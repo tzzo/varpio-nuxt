@@ -229,7 +229,7 @@ nav:not(.nav-index)
 
 .white
 	padding: 24px
-	
+	visibility: hidden
 body.noscroll
 	.white
 		display: none

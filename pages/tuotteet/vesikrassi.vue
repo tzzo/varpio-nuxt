@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Vesikrassi
-        p 
+        p Ravintorikas vesikrassi on rapea ja mausteinen lisä salaatteihin ja keittoihin. Maultaan vesikrassi muistuttaa wasabia. Vesikrassi on helppo lisätä sosekeittoihin soseutuksen yhteydessä.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/vesikrassi.jpg")
 </template>

@@ -3,7 +3,7 @@
     article.product
       .left
         h1.title Mojova lehtisalaatti
-        p
+        p Vihreä, pehmeälehtinen lehtisalaatti. Säilytä omassa pussissaan jääkaapissa.
       .right
         nuxt-img(preset="detail" width="602" height="451" src="/img/products/mojova-lehtisalaatti.jpg")
 </template>
