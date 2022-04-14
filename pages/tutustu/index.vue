@@ -1,5 +1,5 @@
 <template lang="pug">
-	.tutustu
+	.index.tutustu
 		silent-box(:gallery="kuvat")
 </template>
 
@@ -127,6 +127,9 @@ export default {
 <style lang="sass" scoped>
 .tutustu
 	padding: 100px 0 40px
+	text-align: center
+	max-width: 1000px
+	margin: auto
 	@media (min-width: 500px)
 		padding: 120px 0 40px
 	#silentbox-gallery

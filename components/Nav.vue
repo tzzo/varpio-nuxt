@@ -16,7 +16,7 @@
 				li
 					NuxtLink(to="/reseptit") Reseptit
 				li
-					a(href="#footer") Yhteystiedot
+					NuxtLink(to="/yhteystiedot") Yhteystiedot
 
 </template>
 

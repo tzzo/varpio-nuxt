@@ -12,11 +12,15 @@
 							span Luhtaistentie 11
 							span 16300 Orimattila
 						.footer-row-50
+							a(href="mailto:puutarha@varpio.fi") Emmiina Kilpinen
+							a(href="tel:+358407656617") 040 765 6617
+							br
 							a(href="mailto:hannu@varpio.fi") hannu@varpio.fi
 							a(href="tel:+358405506879") 040 550 6879
 							br
 							a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
-							a(href="tel:+358405506879") 040 825 7601
+							a(href="tel:+358408257601") 040 825 7601
+					nuxt-link.span-title.billing-link(to="/yhteystiedot") Laskutustiedot
 				.footer-row
 					span.title.font-canvas Puutarhamyymälä
 					.wrap
@@ -110,4 +114,10 @@ export default {
 			font-size: 20px
 	.footer-row
 		margin-bottom: 16px
+	.billing-link
+		margin: 32px 0 0
+		text-align: center
+		display: block
+		&:not(:hover)
+			color: #545454
 </style>
