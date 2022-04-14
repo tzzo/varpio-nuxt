@@ -7,29 +7,78 @@
 				.footer-row
 					span.title.font-canvas Varpio Puutarha
 					.wrap
+						//-.footer-row-50
+						//-	span.block Varpio Puutarha Oy
+						//-	span.block Luhtaistentie 11
+						//-	span.block 16300 Orimattila
+						//-	br
+						//-	span.block.font-bold Myynti: 
+						//-	.mail
+						//-		img.svg-img(src="/img/mail.svg")
+						//-		a(href="mailto:puutarha@varpio.fi") Emmiina Kilpinen
+						//-	.tel
+						//-		img.svg-img(src="/img/tel.svg")
+						//-		a(href="tel:+358407656617") 040 765 6617
+						//-.footer-row-50
+						//-	.mail
+						//-		img.svg-img(src="/img/mail.svg")
+						//-		a(href="mailto:hannu@varpio.fi") hannu@varpio.fi
+						//-	.tel
+						//-		img.svg-img(src="/img/tel.svg")
+						//-		a(href="tel:+358405506879") 040 550 6879
+						//-	br
+						//-	.mail
+						//-		img.svg-img(src="/img/mail.svg")
+						//-		a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
+						//-	.tel
+						//-		img.svg-img(src="/img/tel.svg")
+						//-		a(href="tel:+358408257601") 040 825 7601
+
+
 						.footer-row-50
-							span Varpio Puutarha Oy
-							span Luhtaistentie 11
-							span 16300 Orimattila
+							span.block.font-bold Käyntiosoite: 
+							span.block Varpio Puutarha Oy
+							span.block Luhtaistentie 11
+							span.block 16300 Orimattila
 						.footer-row-50
-							a(href="mailto:puutarha@varpio.fi") Emmiina Kilpinen
-							a(href="tel:+358407656617") 040 765 6617
-							br
-							a(href="mailto:hannu@varpio.fi") hannu@varpio.fi
-							a(href="tel:+358405506879") 040 550 6879
-							br
-							a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
-							a(href="tel:+358408257601") 040 825 7601
-					nuxt-link.span-title.billing-link(to="/yhteystiedot") Laskutustiedot
+							span.block.font-bold Myynti: 
+							.mail
+								img.svg-img(src="/img/mail.svg")
+								a(href="mailto:puutarha@varpio.fi") Emmiina Kilpinen
+							.tel
+								img.svg-img(src="/img/tel.svg")
+								a(href="tel:+358407656617") 040 765 6617
+
+					.footer-row-100
+						div
+							.mail
+								img.svg-img(src="/img/mail.svg")
+								a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
+							.tel
+								img.svg-img(src="/img/tel.svg")
+								a(href="tel:+358408257601") 040 825 7601
+						div
+							.mail
+								img.svg-img(src="/img/mail.svg")
+								a(href="mailto:hannu@varpio.fi") hannu@varpio.fi
+							.tel
+								img.svg-img(src="/img/tel.svg")
+								a(href="tel:+358405506879") 040 550 6879
+
+					nuxt-link.span-title.billing-link(to="/yhteystiedot") 
+						| Laskutustiedot
+						img.svg-img(src="/img/chev.svg")
+
+
 				.footer-row
 					span.title.font-canvas Puutarhamyymälä
 					.wrap
 						.footer-row-50
-							span Myymälä avoinna:
-							span To-pe 08:00-15:30 
+							span.block Myymälä avoinna:
+							span.block To-pe 08:00-15:30 
 						.footer-row-50
-							span Luhtaistentie 11
-							span 16300 Orimattila
+							span.block Luhtaistentie 11
+							span.block 16300 Orimattila
 				.footer-row
 					span.title.font-canvas Seuraa somessa:
 					.social-wrap
@@ -87,10 +136,8 @@ export default {
 		.wrap
 			display: flex
 			justify-content: space-around
-		.footer-row-50
-			//-width: 50%
+		.footer-row-50, .footer-row-100
 			span, a
-				display: block
 				color: #545454
 		.big
 			font-size: 29px
@@ -117,7 +164,28 @@ export default {
 	.billing-link
 		margin: 32px 0 0
 		text-align: center
-		display: block
+		display: flex
+		align-items: center
+		justify-content: center
 		&:not(:hover)
 			color: #545454
+	.svg-img
+		height: 1.4rem
+		width: auto
+		display: inline-block
+		margin-right: 6px
+	.block
+		display: block
+	.mail, .tel
+		display: flex
+		align-items: center
+		margin-bottom: 8px
+	span.block.font-bold
+		font-weight: 600
+		margin-bottom: 4px
+	.footer-row-100
+		justify-content: space-around
+		display: flex
+		padding-top: 32px
+
 </style>
