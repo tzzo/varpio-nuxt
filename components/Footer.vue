@@ -7,34 +7,6 @@
 				.footer-row
 					span.title.font-canvas Varpio Puutarha
 					.wrap
-						//-.footer-row-50
-						//-	span.block Varpio Puutarha Oy
-						//-	span.block Luhtaistentie 11
-						//-	span.block 16300 Orimattila
-						//-	br
-						//-	span.block.font-bold Myynti: 
-						//-	.mail
-						//-		img.svg-img(src="/img/mail.svg")
-						//-		a(href="mailto:puutarha@varpio.fi") Emmiina Kilpinen
-						//-	.tel
-						//-		img.svg-img(src="/img/tel.svg")
-						//-		a(href="tel:+358407656617") 040 765 6617
-						//-.footer-row-50
-						//-	.mail
-						//-		img.svg-img(src="/img/mail.svg")
-						//-		a(href="mailto:hannu@varpio.fi") hannu@varpio.fi
-						//-	.tel
-						//-		img.svg-img(src="/img/tel.svg")
-						//-		a(href="tel:+358405506879") 040 550 6879
-						//-	br
-						//-	.mail
-						//-		img.svg-img(src="/img/mail.svg")
-						//-		a(href="mailto:tuukka@varpio.fi") tuukka@varpio.fi
-						//-	.tel
-						//-		img.svg-img(src="/img/tel.svg")
-						//-		a(href="tel:+358408257601") 040 825 7601
-
-
 						.footer-row-50
 							span.block.font-bold Käyntiosoite: 
 							span.block Varpio Puutarha Oy
@@ -173,7 +145,7 @@ export default {
 		height: 1.4rem
 		width: auto
 		display: inline-block
-		margin-right: 6px
+		margin-right: 8px
 	.block
 		display: block
 	.mail, .tel

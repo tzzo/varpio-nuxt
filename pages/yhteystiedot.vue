@@ -17,8 +17,8 @@
 					p 02895709
 					p PL 100
 					p 80020 Kollektor Scan
-
-					p.top-spacing Sähköpostilaskut: 
+				div
+					p.font-bold Sähköpostilaskut: 
 					p.bold 02895709@scan.netvisor.fi
 </template>
 
@@ -49,7 +49,7 @@ export default {
 		display: flex
 		margin: auto
 		flex-wrap: wrap
-		@media (min-width: 500px)
+		@media (min-width: 670px)
 			justify-content: center
 			flex-wrap: nowrap
 		div

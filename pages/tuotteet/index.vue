@@ -5,8 +5,8 @@
       h1 Tuotteet
     section.products.container
       .sub-page-intro
-        p Varpion tuoteperheeseen kuuluu viitisentoista herkullista ja ravitsevaa kasvihuoneessa puhtaasti kasvatettua tuotetta. Kaikki värikkäät herkkumme kerätään ja pakataan käsityönä. Omat kuskimme toimittavat tuotteet kauppoihin parhaimmillaan parin tunnin sisällä sadonkorjuusta.
-        p Lajikevalinnoissa panostamme aina määrän sijasta makuun. Pyrimme jatkuvasti löytämään parempia lajikkeita ja myös kokonaan uusia tuotteita viljeltäväksi. Orimattilan puutarhan myymälästä voit löytää tuotteita, joita ei vielä kaupoista saa!
+        p Varpion tuoteperheeseen kuuluu yli neljäkymmentä raikasta, kasvihuoneessa puhtaasti kasvatettua tuotetta. Kasvisten lajikevalinnoissa panostamme aina ensisijaisesti makuun ja pyrimme aktiivisesti löytämään parempia lajikkeita viljeltäväksi. 
+        p Teemme jatkuvaa kehitystyötä valikoimamme laajentamiseksi entisestään. Vieraillessasi Orimattilan puutarhan myymälässä voit löytää myynnistä tuotteita, joita ei vielä kaupoista saa!
 
       .list-preview-wrap
         NuxtLink.list-preview(to="/tuotteet/basilika")
