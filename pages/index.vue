@@ -23,7 +23,7 @@
 					p Varpio Puutarha viljelee ja myy laadukkaita kotimaisia vihanneksia. Puutarhamme Orimattilassa tarjoaa Hämeen, Uudenmaan ja Kymenlaakson asukkaille mahdollisuuden nauttia lähellä kasvatettuja, maukkaita ja tuoreita kasviksia ympäri vuoden. Kuljetamme tuotteet suoraan lähialueen kauppoihin ja puutarhalla toimii myös oma myymälä.
 				.intro-block
 					h3.title.title-25 Puhtaasti, mukana myös maku
-					p Kaikki Varpio Puutarhan antimet ovat kasvatettu huolellisesti laatuun panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme ja pakkaamme kaikki tuotteet käsityönä. Kuljetamme tuotteet kauppoihin parhaimmillaan jo tunnin kuluttua sadonkorjuusta. Meiltä ostaessaan asiakas voi aina luottaa saavansa laadukkaita, lähellä kasvatettuja kasviksia. 
+					p Kaikki Varpio Puutarhan antimet ovat kasvatettu huolellisesti laatuun panostaen. Suosittujen vihannesten maku syntyy harkittujen lajikevalintojen lisäksi hyvistä ja puhtaista viljelykäytännöistä. Lajittelemme ja pakkaamme kaikki tuotteet käsityönä. Meiltä ostaessaan asiakas voi aina luottaa saavansa laadukkaita, lähellä kasvatettuja kasviksia. 
 
 		section.divider
 			nuxt-img(loading="lazy" width="2000" src="/img/hannu_divider.jpg" alt="Varpio puutarhan kasvihuone")

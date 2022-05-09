@@ -11,8 +11,10 @@
   "dependencies": {
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "cookie-universal-nuxt": "^2.1.5",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
+    "nuxt-facebook-pixel-module": "^1.5.0",
     "vue-silentbox": "^2.4.5"
   },
   "devDependencies": {

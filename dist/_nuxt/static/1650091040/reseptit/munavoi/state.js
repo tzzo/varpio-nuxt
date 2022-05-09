@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1650091040",layout:"default-nav-footer",error:a,serverRendered:true,routePath:"\u002Freseptit\u002Fmunavoi",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}},_img:{"/_ipx/q_100,s_602x451/img/recipes/munavoi.jpg":"\u002F_nuxt\u002Fimage\u002F9e765a.jpg"}}}(null));

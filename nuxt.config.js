@@ -46,9 +46,16 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/gtm',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    'cookie-universal-nuxt',
+    ['nuxt-facebook-pixel-module', {
+      /* module options */
+      track: 'PageView',
+      pixelId: '1014115276155995',
+      autoPageView: true,
+      disabled: false
+    }],
   ],
-
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
