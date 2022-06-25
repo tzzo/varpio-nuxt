@@ -55,6 +55,7 @@ export default {
       autoPageView: true,
       disabled: false
     }],
+		'@nuxtjs/sitemap'
   ],
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

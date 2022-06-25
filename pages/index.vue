@@ -76,7 +76,7 @@
 					nuxt-img(preset="person" loading="lazy" src="/img/tuukka.jpg" alt="Varpio puutarha Tuukka")
 					.person-text
 						span.font-canvas Tuukka
-						p Tuukka toimii yrityksen toimitusjohtajana. Paperitöiden ohella arkeen mahtuu paljon myös käytännön työtehtäviä. Kehitysprojektien lisäksi Tuukka suunnittelee ja osallistuu viljelytyöhön,  ylläpitää puutarhalla tarvittavia laitteita ja tuuraa tarvittaessa kuskiakin.
+						p Tuukka toimii yrityksen operatiivisena johtajana. Paperitöiden ohella arkeen mahtuu paljon myös käytännön työtehtäviä. Kehitysprojektien lisäksi Tuukka suunnittelee ja osallistuu viljelytyöhön,  ylläpitää puutarhalla tarvittavia laitteita ja tuuraa tarvittaessa kuskiakin.
 						p Koulutukseltaan Tuukka on rakennustekniikan insinööri. Hän nauttii suuresti puutarhatyön monipuolisuudesta ja lähes rajattomilta tuntuvista kehittymismahdollisuuksista.
 				.person
 					nuxt-img(preset="person" loading="lazy" src="/img/iitu.jpg" alt="Varpio puutarha Iitu")
